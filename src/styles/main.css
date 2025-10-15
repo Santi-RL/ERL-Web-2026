@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+  }
+
+  .gradient-primary {
+    background-image: theme('backgroundImage.gradient-primary');
+  }
+
+  .gradient-secondary {
+    background-image: theme('backgroundImage.gradient-secondary');
+  }
+
+  .gradient-accent {
+    background-image: theme('backgroundImage.gradient-accent');
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+
+  .reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block px-6 py-3 rounded-lg text-center font-semibold transition duration-300 ease-in-out shadow-md hover:shadow-lg;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-primary text-white hover:opacity-90;
+  }
+
+  .btn-secondary {
+    @apply bg-gradient-secondary text-white hover:opacity-90;
+  }
+
+  .btn-outline-primary {
+    @apply border-2 border-primary text-primary hover:bg-primary/10;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 px-4 sm:px-6 lg:px-8;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-md overflow-hidden transition duration-300 hover:shadow-xl hover:-translate-y-2;
+  }
+
+  .client-logo {
+    @apply h-12 md:h-16 grayscale hover:grayscale-0 transition duration-500;
+  }
+
+  .form-feedback {
+    @apply hidden mt-4 rounded-lg border px-4 py-3 text-sm font-medium transition;
+  }
+
+  .form-feedback[data-state='success'] {
+    @apply block bg-success/10 border-success/40 text-success;
+  }
+
+  .form-feedback[data-state='error'] {
+    @apply block bg-red-50 border-red-200 text-red-600;
+  }
+}

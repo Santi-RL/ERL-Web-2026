@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Contable Rojas Lem - Contabilidad Moderna para Pymes y Emprendedores</title>
+    <meta name="description" content="Estudio Contable Rojas Lem: Soluciones contables, impositivas y de gestión para Pymes y emprendedores. Modernos, ágiles y tecnológicos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <script type="module" src="/src/main.js"></script>
+</head>
+<body class="bg-light text-dark antialiased" data-page="inicio">
+
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/95 backdrop-blur-md shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html#inicio" data-nav="inicio" class="text-2xl font-bold font-display text-primary flex items-center">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Rojas Lem" class="h-8 w-8 mr-2 rounded-full">
+                    Rojas Lem
+                </a>
+
+                <nav class="hidden md:flex space-x-6 items-center">
+                    <a href="index.html#inicio" class="text-gray-dark hover:text-primary transition duration-300">Inicio</a>
+                    <a href="nosotros.html" data-nav="nosotros" class="text-gray-dark hover:text-primary transition duration-300">Nosotros</a>
+                    <a href="servicios.html" data-nav="servicios" class="text-gray-dark hover:text-primary transition duration-300">Servicios</a>
+                    <a href="planes.html" data-nav="planes" class="text-gray-dark hover:text-primary transition duration-300">Planes</a>
+                    <a href="casos-de-exito.html" data-nav="casos" class="text-gray-dark hover:text-primary transition duration-300">Casos de �xito</a>
+                    <a href="recursos.html" data-nav="recursos" class="text-gray-dark hover:text-primary transition duration-300">Recursos</a>
+                    <a href="blog.html" data-nav="blog" class="text-gray-dark hover:text-primary transition duration-300">Blog</a>
+                    <a href="contacto.html" data-nav="contacto" class="btn btn-outline-primary px-4 py-2">Agenda tu Consulta</a>
+                </nav>
+
+                <button id="mobile-menu-button" class="md:hidden text-dark focus:outline-none">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg py-4 z-40">
+            <nav class="flex flex-col space-y-4 px-6">
+                <a href="index.html#inicio" data-nav="inicio" class="block text-gray-dark hover:text-primary transition duration-300">Inicio</a>
+                <a href="nosotros.html" data-nav="nosotros" class="block text-gray-dark hover:text-primary transition duration-300">Nosotros</a>
+                <a href="servicios.html" data-nav="servicios" class="block text-gray-dark hover:text-primary transition duration-300">Servicios</a>
+                <a href="planes.html" data-nav="planes" class="block text-gray-dark hover:text-primary transition duration-300">Planes</a>
+                <a href="casos-de-exito.html" data-nav="casos" class="block text-gray-dark hover:text-primary transition duration-300">Casos de �xito</a>
+                <a href="recursos.html" data-nav="recursos" class="block text-gray-dark hover:text-primary transition duration-300">Recursos</a>
+                <a href="blog.html" data-nav="blog" class="block text-gray-dark hover:text-primary transition duration-300">Blog</a>
+                <a href="contacto.html" data-nav="contacto" class="btn btn-outline-primary w-full mt-2">Agenda tu Consulta</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="pt-24 md:pt-32 pb-16 md:pb-24 bg-gradient-to-b from-white to-primary/5">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="text-center md:text-left reveal">
+                        <h1 class="text-4xl md:text-5xl lg:text-6xl font-display mb-6 text-dark leading-tight">
+                            Contabilidad <span class="text-primary">Modernizada</span> para tu Negocio
+                        </h1>
+                        <p class="text-lg md:text-xl text-gray-dark mb-8">
+                            Transformamos la gestión contable con tecnología de punta y asesoramiento personalizado para Pymes y emprendedores.
+                        </p>
+                        <div class="flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4 mb-10">
+                            <a href="contacto.html" class="btn btn-primary w-full sm:w-auto">
+                                <i data-lucide="calendar-plus" class="inline-block w-5 h-5 mr-2"></i> Reserva una Consulta
+                            </a>
+                            <a href="servicios.html" class="btn btn-outline-primary w-full sm:w-auto">
+                                Nuestros Servicios <i data-lucide="arrow-right" class="inline-block w-5 h-5 ml-1"></i>
+                            </a>
+                        </div>
+                        <div class="flex flex-wrap justify-center md:justify-start items-center gap-6 text-gray-dark">
+                            <div class="flex items-center">
+                                <i data-lucide="users" class="w-6 h-6 text-secondary mr-2"></i>
+                                <span class="font-semibold">50+ Pymes</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i data-lucide="check-circle" class="w-6 h-6 text-success mr-2"></i>
+                                <span class="font-semibold">Asesoramiento 360°</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Equipo contable trabajando" class="rounded-xl shadow-lg w-full h-auto object-cover" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros" class="section-padding bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16 reveal">
+                    <span class="text-sm font-semibold text-primary uppercase tracking-wider">Nuestra Esencia</span>
+                    <h2 class="text-3xl md:text-4xl font-display mt-2 mb-6">Más que un Estudio Contable</h2>
+                    <p class="text-gray-dark max-w-3xl mx-auto">Somos socios estratégicos que combinan experiencia contable con tecnología innovadora para simplificar tu gestión.</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-16">
+                    <div class="card reveal p-8 text-center">
+                        <div class="inline-flex items-center justify-center w-16 h-16 gradient-primary rounded-full text-white mb-6 mx-auto">
+                            <i data-lucide="shield-check" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Confianza</h3>
+                        <p class="text-gray-dark">Más de 15 años de experiencia en el mercado con clientes satisfechos.</p>
+                    </div>
+                    
+                    <div class="card reveal p-8 text-center">
+                        <div class="inline-flex items-center justify-center w-16 h-16 gradient-secondary rounded-full text-white mb-6 mx-auto">
+                            <i data-lucide="rocket" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Innovación</h3>
+                        <p class="text-gray-dark">Herramientas digitales para una gestión ágil y en tiempo real.</p>
+                    </div>
+                    
+                    <div class="card reveal p-8 text-center">
+                        <div class="inline-flex items-center justify-center w-16 h-16 gradient-accent rounded-full text-white mb-6 mx-auto">
+                            <i data-lucide="heart-handshake" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Cercanía</h3>
+                        <p class="text-gray-dark">Asesoramiento personalizado y comunicación directa con nuestros clientes.</p>
+                    </div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="reveal">
+                        <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Reunión de equipo" class="rounded-xl shadow-lg w-full h-auto object-cover" loading="lazy">
+                    </div>
+                    <div class="reveal">
+                        <h2 class="text-3xl md:text-4xl font-display mb-6">Nuestra Historia</h2>
+                        <p class="text-gray-dark mb-6">
+                            Fundado en 2008, el Estudio Contable Rojas Lem nació con la visión de modernizar los servicios contables tradicionales. Hoy, con un equipo multidisciplinario, combinamos el rigor profesional con soluciones tecnológicas adaptadas a las necesidades actuales.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <i data-lucide="check-circle" class="w-6 h-6 text-primary mt-1 mr-3"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Equipo Especializado</h4>
+                                    <p class="text-gray-dark text-sm">Contadores, abogados y especialistas en tecnología trabajando en conjunto.</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <i data-lucide="check-circle" class="w-6 h-6 text-primary mt-1 mr-3"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Enfoque Digital</h4>
+                                    <p class="text-gray-dark text-sm">Plataformas en la nube y herramientas automatizadas para mayor eficiencia.</p>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <div class="flex-shrink-0">
+                                    <i data-lucide="check-circle" class="w-6 h-6 text-primary mt-1 mr-3"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Resultados Comprobados</h4>
+                                    <p class="text-gray-dark text-sm">Hemos ayudado a más de 200 negocios a optimizar su gestión financiera.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="section-padding bg-gradient-to-b from-primary/5 to-secondary/5">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <span class="text-sm font-semibold text-primary uppercase tracking-wider reveal">Lo que Ofrecemos</span>
+                <h2 class="text-3xl md:text-4xl font-display mt-2 mb-12 reveal">Servicios Contables Integrales</h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="card reveal text-left group">
+                        <div class="h-48 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Contabilidad y Auditoría" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="p-6">
+                            <div class="inline-block p-3 rounded-full bg-primary/10 mb-4">
+                                <i data-lucide="book-open-check" class="w-8 h-8 text-primary"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3">Contabilidad y Auditoría</h3>
+                            <p class="text-gray-dark text-sm mb-4">Llevamos tus libros contables al día con precisión y transparencia.</p>
+                            <ul class="text-sm text-gray-dark list-disc list-inside space-y-1 mb-4">
+                                <li>Registros contables digitales</li>
+                                <li>Balances y estados financieros</li>
+                                <li>Auditorías internas y externas</li>
+                            </ul>
+                            <a href="contacto.html" class="text-sm font-semibold text-primary hover:underline inline-flex items-center">
+                                Más información <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal text-left group">
+                        <div class="h-48 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Liquidación de Impuestos" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="p-6">
+                            <div class="inline-block p-3 rounded-full bg-secondary/10 mb-4">
+                                <i data-lucide="landmark" class="w-8 h-8 text-secondary"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3">Liquidación de Impuestos</h3>
+                            <p class="text-gray-dark text-sm mb-4">Optimizamos tu carga fiscal cumpliendo con todas las normativas.</p>
+                            <ul class="text-sm text-gray-dark list-disc list-inside space-y-1 mb-4">
+                                <li>IVA, Ganancias, Bienes Personales</li>
+                                <li>Ingresos Brutos (Convenio Multilateral)</li>
+                                <li>Monotributo y Régimen Simplificado</li>
+                            </ul>
+                            <a href="#contacto" class="text-sm font-semibold text-secondary hover:underline inline-flex items-center">
+                                Más información <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal text-left group">
+                        <div class="h-48 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Gestión de RRHH" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="p-6">
+                            <div class="inline-block p-3 rounded-full bg-accent/10 mb-4">
+                                <i data-lucide="users-round" class="w-8 h-8 text-accent"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3">Gestión de RRHH</h3>
+                            <p class="text-gray-dark text-sm mb-4">Simplificamos la administración de tu personal.</p>
+                            <ul class="text-sm text-gray-dark list-disc list-inside space-y-1 mb-4">
+                                <li>Liquidación de haberes y cargas sociales</li>
+                                <li>Generación de F.931 y libros obligatorios</li>
+                                <li>Asesoramiento laboral integral</li>
+                            </ul>
+                            <a href="#contacto" class="text-sm font-semibold text-accent hover:underline inline-flex items-center">
+                                Más información <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal text-left group">
+                        <div class="h-48 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Outsourcing Administrativo" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="p-6">
+                            <div class="inline-block p-3 rounded-full bg-success/10 mb-4">
+                                <i data-lucide="briefcase-business" class="w-8 h-8 text-success"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3">Outsourcing Administrativo</h3>
+                            <p class="text-gray-dark text-sm mb-4">Delegá tus tareas administrativas en nuestros expertos.</p>
+                            <ul class="text-sm text-gray-dark list-disc list-inside space-y-1 mb-4">
+                                <li>Facturación electrónica y gestión documental</li>
+                                <li>Gestión de Cuentas por Cobrar/Pagar</li>
+                                <li>Conciliaciones bancarias automatizadas</li>
+                            </ul>
+                            <a href="#contacto" class="text-sm font-semibold text-success hover:underline inline-flex items-center">
+                                Más información <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal text-left group">
+                        <div class="h-48 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Consultoría Financiera" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                        </div>
+                        <div class="p-6">
+                            <div class="inline-block p-3 rounded-full bg-primary/10 mb-4">
+                                <i data-lucide="lightbulb" class="w-8 h-8 text-primary"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3">Consultoría Financiera</h3>
+                            <p class="text-gray-dark text-sm mb-4">Estrategias personalizadas para el crecimiento de tu negocio.</p>
+                            <ul class="text-sm text-gray-dark list-disc list-inside space-y-1 mb-4">
+                                <li>Planificación fiscal estratégica</li>
+                                <li>Análisis de rentabilidad y costos</li>
+                                <li>Asesoramiento para inversiones</li>
+                            </ul>
+                            <a href="#contacto" class="text-sm font-semibold text-primary hover:underline inline-flex items-center">
+                                Más información <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal text-left md:col-span-2 lg:col-span-1 bg-gradient-secondary text-white group">
+                        <div class="h-48 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Planes Personalizados" class="w-full h-full object-cover opacity-70 group-hover:opacity-50 transition duration-500">
+                        </div>
+                        <div class="p-6 relative z-10">
+                            <div class="inline-block p-3 rounded-full bg-white/20 mb-4">
+                                <i data-lucide="package" class="w-8 h-8 text-white"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3">Planes Personalizados</h3>
+                            <p class="text-secondary-light text-sm mb-4">Soluciones adaptadas a cada etapa de tu negocio.</p>
+                            <ul class="text-sm text-secondary-light list-disc list-inside space-y-1 mb-4">
+                                <li>Plan Emprendedor Digital</li>
+                                <li>Plan Profesional Independiente</li>
+                                <li>Plan Pyme en Crecimiento</li>
+                                <li>Plan Empresa Consolidada</li>
+                            </ul>
+                            <a href="#contacto" class="text-sm font-semibold text-white hover:underline inline-flex items-center">
+                                Ver detalles <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="section-padding bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <span class="text-sm font-semibold text-primary uppercase tracking-wider reveal">Recursos Gratuitos</span>
+                <h2 class="text-3xl md:text-4xl font-display mt-2 mb-12 reveal">Herramientas para tu Negocio</h2>
+
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="card reveal text-left group">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Guía de Monotributo" class="w-full h-48 object-cover transition duration-500 group-hover:scale-105">
+                        <div class="p-6">
+                            <span class="text-xs text-gray-dark uppercase">Guía Práctica</span>
+                            <h4 class="font-semibold text-lg mt-1 mb-2 hover:text-primary transition"><a href="blog.html">Guía Completa del Monotributo 2023</a></h4>
+                            <p class="text-sm text-gray-dark mb-3">Todo lo que necesitás saber sobre categorías, obligaciones y beneficios del régimen simplificado.</p>
+                            <a href="#blog" class="text-sm font-semibold text-primary hover:underline inline-flex items-center">
+                                Descargar PDF <i data-lucide="download" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal text-left group">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Plantilla Excel" class="w-full h-48 object-cover transition duration-500 group-hover:scale-105">
+                        <div class="p-6">
+                            <span class="text-xs text-gray-dark uppercase">Herramienta</span>
+                            <h4 class="font-semibold text-lg mt-1 mb-2 hover:text-secondary transition"><a href="#blog">Plantilla de Control de Gastos</a></h4>
+                            <p class="text-sm text-gray-dark mb-3">Organizá tus finanzas con esta plantilla Excel optimizada para categorizar y analizar tus gastos.</p>
+                            <a href="#blog" class="text-sm font-semibold text-secondary hover:underline inline-flex items-center">
+                                Descargar Excel <i data-lucide="download" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal text-left group">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Checklist Inicio de Actividades" class="w-full h-48 object-cover transition duration-500 group-hover:scale-105">
+                        <div class="p-6">
+                            <span class="text-xs text-gray-dark uppercase">Checklist</span>
+                            <h4 class="font-semibold text-lg mt-1 mb-2 hover:text-accent transition"><a href="#blog">Inicio de Actividades: Paso a Paso</a></h4>
+                            <p class="text-sm text-gray-dark mb-3">No te pierdas ningún trámite al iniciar tu emprendimiento con esta checklist detallada.</p>
+                            <a href="#blog" class="text-sm font-semibold text-accent hover:underline inline-flex items-center">
+                                Descargar Checklist <i data-lucide="download" class="w-4 h-4 ml-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 items-start reveal">
+                    <div class="bg-gray-light p-8 rounded-lg text-left h-full">
+                        <div class="flex items-center mb-6">
+                            <div class="inline-flex items-center justify-center w-12 h-12 gradient-primary rounded-full text-white mr-4">
+                                <i data-lucide="download-cloud" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold">Más Recursos Gratuitos</h3>
+                                <p class="text-gray-dark text-sm">Descargá guías, plantillas y herramientas para optimizar tu gestión.</p>
+                            </div>
+                        </div>
+                        <ul class="space-y-3">
+                            <li>
+                                <a href="#" class="flex items-center text-gray-dark hover:text-primary transition group">
+                                    <div class="inline-flex items-center justify-center w-8 h-8 bg-white rounded-md mr-3 group-hover:bg-primary/10 transition">
+                                        <i data-lucide="file-spreadsheet" class="w-4 h-4 text-success"></i>
+                                    </div>
+                                    <span>Plantilla Excel: Flujo de Caja Proyectado</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex items-center text-gray-dark hover:text-primary transition group">
+                                    <div class="inline-flex items-center justify-center w-8 h-8 bg-white rounded-md mr-3 group-hover:bg-primary/10 transition">
+                                        <i data-lucide="file-text" class="w-4 h-4 text-secondary"></i>
+                                    </div>
+                                    <span>Guía Rápida: Facturación Electrónica</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex items-center text-gray-dark hover:text-primary transition group">
+                                    <div class="inline-flex items-center justify-center w-8 h-8 bg-white rounded-md mr-3 group-hover:bg-primary/10 transition">
+                                        <i data-lucide="book-marked" class="w-4 h-4 text-accent"></i>
+                                    </div>
+                                    <span>Manual: Buenas Prácticas Contables</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-primary mt-6 inline-flex items-center">
+                            Ver Todos los Recursos <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                    </div>
+
+                    <div class="bg-gray-light p-8 rounded-lg text-left h-full">
+                        <div class="flex items-center mb-6">
+                            <div class="inline-flex items-center justify-center w-12 h-12 gradient-secondary rounded-full text-white mr-4">
+                                <i data-lucide="calculator" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold">Calculadora Fiscal</h3>
+                                <p class="text-gray-dark text-sm">¿Monotributo o Responsable Inscripto? Te ayudamos a decidir.</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-dark mb-6">Ingresá tu facturación estimada y te orientamos sobre el régimen y categoría que te correspondería según la normativa vigente.</p>
+                        
+                        <div class="space-y-4">
+                            <div>
+                                <label for="facturacion" class="block text-sm font-medium text-gray-dark mb-1">Facturación Anual Estimada ($)</label>
+                                <input type="number" id="facturacion" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-secondary">
+                            </div>
+                            <div>
+                                <label for="actividad" class="block text-sm font-medium text-gray-dark mb-1">Tipo de Actividad</label>
+                                <select id="actividad" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-secondary">
+                                    <option>Servicios</option>
+                                    <option>Comercio</option>
+                                    <option>Producción</option>
+                                    <option>Profesional</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-secondary w-full inline-flex items-center justify-center">
+                                Calcular Régimen <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 reveal">
+                    <a href="#blog" class="btn btn-outline-primary inline-flex items-center">
+                        Ir al Blog Completo <i data-lucide="arrow-right" class="w-5 h-5 ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="clientes" class="section-padding bg-gradient-to-b from-secondary/5 to-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <span class="text-sm font-semibold text-secondary uppercase tracking-wider reveal">Testimonios</span>
+                <h2 class="text-3xl md:text-4xl font-display mt-2 mb-12 reveal">Lo que Dicen Nuestros Clientes</h2>
+
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="card reveal p-8 text-left bg-white">
+                        <div class="flex mb-4">
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-dark italic mb-6">"Desde que trabajamos con Rojas Lem, nuestra contabilidad está impecable y entendemos mucho mejor nuestros números. Su equipo responde consultas en minutos, no en días."</p>
+                        <div class="flex items-center">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&q=80" alt="Ana Pérez" class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <p class="font-semibold">Ana Pérez</p>
+                                <p class="text-sm text-gray-dark">Tienda Online Creativa</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal p-8 text-left bg-white">
+                        <div class="flex mb-4">
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-dark italic mb-6">"La transición de Monotributo a Responsable Inscripto fue perfecta gracias a su asesoramiento. Nos anticiparon todos los pasos y requisitos, evitándonos dolores de cabeza."</p>
+                        <div class="flex items-center">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&q=80" alt="Martín Gómez" class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <p class="font-semibold">Martín Gómez</p>
+                                <p class="text-sm text-gray-dark">Consultora IT Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card reveal p-8 text-left bg-white">
+                        <div class="flex mb-4">
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 text-yellow-400 fill-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-dark italic mb-6">"Como pequeña fábrica textil, la gestión de sueldos era un caos. Ahora con Rojas Lem todo está sistematizado y cumplimos con todas las obligaciones laborales sin estrés."</p>
+                        <div class="flex items-center">
+                            <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&q=80" alt="Laura Fernández" class="w-12 h-12 rounded-full mr-4 object-cover">
+                            <div>
+                                <p class="font-semibold">Laura Fernández</p>
+                                <p class="text-sm text-gray-dark">Fábrica Textil DelSur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-16 reveal">
+                    <h3 class="text-xl font-semibold text-gray-dark mb-8">Empresas que confían en nosotros</h3>
+                    <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-70 hover:opacity-100 transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Cliente A" class="client-logo">
+                        <img src="https://images.unsplash.com/photo-1589156280159-27698a70f0ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Cliente B" class="client-logo">
+                        <img src="https://images.unsplash.com/photo-1631495625884-a8a7edfad1e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Cliente C" class="client-logo">
+                        <img src="https://images.unsplash.com/photo-1631725999047-8c9b09e90284?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Cliente D" class="client-logo">
+                        <img src="https://images.unsplash.com/photo-1631495625551-0a8a5d1f0433?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Cliente E" class="client-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section-padding bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                 <div class="text-center mb-12 reveal">
+                    <span class="text-sm font-semibold text-primary uppercase tracking-wider">Contacto</span>
+                    <h2 class="text-3xl md:text-4xl font-display mt-2">¿Cómo Podemos Ayudarte?</h2>
+                    <p class="text-gray-dark mt-4 max-w-2xl mx-auto">Estamos listos para responder tus consultas y asesorarte en la mejor solución para tu negocio.</p>
+                 </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-start">
+                    <div class="reveal">
+                        <h3 class="text-2xl font-semibold mb-6">Envianos tu Mensaje</h3>
+                        <form action="contacto.html" method="POST" class="space-y-4" data-validate data-success-message="¡Gracias! Te responderemos dentro de las próximas 24 horas." data-error-message="Por favor completá los campos obligatorios.">
+                             <div>
+                                <label for="nombre" class="block text-sm font-medium text-gray-dark mb-1">Nombre Completo</label>
+                                <input type="text" name="nombre" id="nombre" required data-required class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary">
+                            </div>
+                             <div>
+                                <label for="telefono" class="block text-sm font-medium text-gray-dark mb-1">Teléfono</label>
+                                <input type="tel" name="telefono" id="telefono" required data-required class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-dark mb-1">Correo Electrónico</label>
+                                <input type="email" name="email" id="email" required data-required class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary">
+                            </div>
+                            <div>
+                                <label for="servicio" class="block text-sm font-medium text-gray-dark mb-1">Servicio de Interés</label>
+                                <select id="servicio" name="servicio" data-required class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary">
+                                    <option value="">Seleccionar...</option>
+                                    <option>Contabilidad y Auditoría</option>
+                                    <option>Liquidación de Impuestos</option>
+                                    <option>Gestión de RRHH</option>
+                                    <option>Outsourcing Administrativo</option>
+                                    <option>Consultoría Financiera</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="mensaje" class="block text-sm font-medium text-gray-dark mb-1">Mensaje</label>
+                                <textarea name="mensaje" id="mensaje" rows="4" required data-required class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary w-full inline-flex items-center justify-center">
+                                    Enviar Mensaje <i data-lucide="send" class="w-4 h-4 ml-2"></i>
+                                </button>
+                                <p data-feedback class="form-feedback" role="status" aria-live="polite"></p>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="reveal space-y-8">
+                         <div>
+                            <h3 class="text-2xl font-semibold mb-4">Contacto Directo</h3>
+                            <div class="space-y-4 text-gray-dark">
+                                <div class="flex items-start p-4 bg-gray-light rounded-lg">
+                                    <div class="inline-flex items-center justify-center w-10 h-10 gradient-primary rounded-full text-white mr-4 shrink-0">
+                                        <i data-lucide="mail" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-medium">Correo Electrónico</h4>
+                                        <p class="text-sm">info@rojaslem.com.ar</p>
+                                        <a href="mailto:info@rojaslem.com.ar" class="text-sm font-medium text-primary hover:underline inline-flex items-center mt-1">
+                                            Escribinos <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex items-start p-4 bg-gray-light rounded-lg">
+                                    <div class="inline-flex items-center justify-center w-10 h-10 gradient-secondary rounded-full text-white mr-4 shrink-0">
+                                        <i data-lucide="phone" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-medium">Teléfono / WhatsApp</h4>
+                                        <p class="text-sm">+54 9 11 1234-5678</p>
+                                        <a href="https://wa.me/5491112345678" target="_blank" class="text-sm font-medium text-secondary hover:underline inline-flex items-center mt-1">
+                                            Chatear por WhatsApp <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex items-start p-4 bg-gray-light rounded-lg">
+                                    <div class="inline-flex items-center justify-center w-10 h-10 gradient-accent rounded-full text-white mr-4 shrink-0">
+                                        <i data-lucide="map-pin" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-medium">Oficina Comercial</h4>
+                                        <p class="text-sm">Av. Corrientes 1234, Piso 5, Oficina 502<br>Buenos Aires, Argentina</p>
+                                        <a href="https://goo.gl/maps/ejemplo" target="_blank" class="text-sm font-medium text-accent hover:underline inline-flex items-center mt-1">
+                                            Ver en el mapa <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-6 space-x-3">
+                                <a href="https://www.linkedin.com/company/rojaslem" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-10 h-10 bg-gray-light rounded-full text-gray-dark hover:bg-primary hover:text-white transition">
+                                    <i data-lucide="linkedin" class="w-5 h-5"></i>
+                                </a>
+                                 <a href="https://www.instagram.com/rojaslem" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-10 h-10 bg-gray-light rounded-full text-gray-dark hover:bg-primary hover:text-white transition">
+                                    <i data-lucide="instagram" class="w-5 h-5"></i>
+                                </a>
+                                 <a href="https://www.facebook.com/rojaslem" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-10 h-10 bg-gray-light rounded-full text-gray-dark hover:bg-primary hover:text-white transition">
+                                    <i data-lucide="facebook" class="w-5 h-5"></i>
+                                </a>
+                            </div>
+                         </div>
+
+                         <div>
+                             <h3 class="text-2xl font-semibold mb-4">Horario de Atención</h3>
+                             <div class="bg-gray-light p-4 rounded-lg">
+                                <div class="flex justify-between py-2 border-b border-gray-200">
+                                    <span>Lunes a Viernes</span>
+                                    <span class="font-medium">9:00 - 18:00 hs</span>
+                                </div>
+                                <div class="flex justify-between py-2">
+                                    <span>Sábados</span>
+                                    <span class="font-medium">10:00 - 13:00 hs</span>
+                                </div>
+                             </div>
+                         </div>
+                         
+                         <div>
+                             <h3 class="text-2xl font-semibold mb-4">Agendá tu Reunión</h3>
+                             <p class="text-gray-dark mb-4">Seleccioná día y hora para una consulta virtual gratuita con uno de nuestros especialistas.</p>
+                             <a href="contacto.html#agenda" class="btn btn-secondary inline-flex items-center justify-center w-full">
+                                <i data-lucide="calendar-plus" class="w-5 h-5 mr-2"></i> Agendar Videollamada
+                             </a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-gray-light section-padding">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <a href="index.html#inicio" class="text-2xl font-bold font-display text-white mb-4 inline-flex items-center">
+                        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=40&q=80" alt="Logo Rojas Lem" class="h-8 w-8 mr-2 rounded-full">
+                        Rojas Lem
+                    </a>
+                    <p class="text-sm text-gray-400 mb-4">Contabilidad moderna para Pymes y emprendedores. Agilidad, tecnología y cercanía.</p>
+                     <div class="flex space-x-3">
+                         <a href="https://www.linkedin.com/company/rojaslem" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-10 h-10 bg-gray-dark rounded-full text-gray-light hover:bg-primary transition">
+                             <i data-lucide="linkedin" class="w-5 h-5"></i>
+                         </a>
+                          <a href="https://www.instagram.com/rojaslem" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-10 h-10 bg-gray-dark rounded-full text-gray-light hover:bg-primary transition">
+                             <i data-lucide="instagram" class="w-5 h-5"></i>
+                         </a>
+                          <a href="https://www.facebook.com/rojaslem" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-10 h-10 bg-gray-dark rounded-full text-gray-light hover:bg-primary transition">
+                             <i data-lucide="facebook" class="w-5 h-5"></i>
+                         </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Servicios</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="servicios.html#contabilidad" class="hover:text-white transition">Contabilidad y Auditoría</a></li>
+                        <li><a href="servicios.html#impuestos" class="hover:text-white transition">Liquidación de Impuestos</a></li>
+                        <li><a href="servicios.html#rrhh" class="hover:text-white transition">Gestión de RRHH</a></li>
+                        <li><a href="servicios.html#outsourcing" class="hover:text-white transition">Outsourcing Administrativo</a></li>
+                        <li><a href="servicios.html#consultoria" class="hover:text-white transition">Consultoría Financiera</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Enlaces Rápidos</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="nosotros.html" class="hover:text-white transition">Sobre Nosotros</a></li>
+                        <li><a href="recursos.html" class="hover:text-white transition">Recursos</a></li>
+                        <li><a href="casos-de-exito.html" class="hover:text-white transition">Clientes</a></li>
+                        <li><a href="#contacto" class="hover:text-white transition">Contacto</a></li>
+                        <li><a href="#blog" class="hover:text-white transition">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-4">Contacto</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                       <li class="flex items-start">
+                           <i data-lucide="mail" class="w-4 h-4 mr-2 mt-1 text-primary shrink-0"></i>
+                           <span>info@rojaslem.com.ar</span>
+                       </li>
+                       <li class="flex items-start">
+                           <i data-lucide="phone" class="w-4 h-4 mr-2 mt-1 text-primary shrink-0"></i>
+                           <span>+54 9 11 1234-5678</span>
+                       </li>
+                       <li class="flex items-start">
+                           <i data-lucide="map-pin" class="w-4 h-4 mr-2 mt-1 text-primary shrink-0"></i>
+                           <span>Av. Corrientes 1234, Piso 5<br>Buenos Aires, Argentina</span>
+                       </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-dark/30 pt-6 text-center text-sm text-gray-400">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="mb-4 md:mb-0">
+                        © <span id="current-year"></span> Estudio Contable Rojas Lem. Todos los derechos reservados.
+                    </div>
+                    <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
+                        <a href="politica-de-privacidad.html" class="hover:text-white transition">Política de Privacidad</a>
+                        <a href="terminos-y-condiciones.html" class="hover:text-white transition">Términos de Servicio</a>
+                        <a href="mapa-del-sitio.html" class="hover:text-white transition">Mapa del Sitio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5491112345678" target="_blank" rel="noopener noreferrer" class="fixed bottom-5 right-5 z-40 p-4 bg-whatsapp rounded-full shadow-lg hover:bg-whatsapp-dark transition duration-300 group motion-safe:animate-bounce motion-reduce:transform-none">
+        <i data-lucide="message-circle" class="w-8 h-8 text-white group-hover:scale-110 transition-transform"></i>
+        <span class="sr-only">Contactar por WhatsApp</span>
+    </a>
+
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
