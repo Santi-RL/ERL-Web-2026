@@ -29,13 +29,13 @@
     background-image: theme('backgroundImage.gradient-accent');
   }
 
-  .has-js .reveal {
+  .reveal[data-reveal-state='hidden'] {
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
 
-  .has-js .reveal-visible {
+  .reveal[data-reveal-state='visible'] {
     opacity: 1;
     transform: translateY(0);
   }

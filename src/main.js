@@ -1,8 +1,6 @@
 import './styles/main.css';
 import { createIcons } from 'lucide';
 
-document.documentElement.classList.add('has-js');
-
 const setActiveNavigation = () => {
   const activePage = document.body?.dataset?.page;
   if (!activePage) return;
@@ -67,7 +65,15 @@ const setupRevealAnimations = () => {
     ? window.matchMedia('(prefers-reduced-motion: reduce)')
     : { matches: false };
 
-  const revealVisible = (element) => element.classList.add('reveal-visible');
+  const hideElement = (element) => {
+    element.dataset.revealState = 'hidden';
+  };
+
+  const revealVisible = (element) => {
+    element.dataset.revealState = 'visible';
+  };
+
+  revealElements.forEach(hideElement);
 
   if (!prefersReducedMotion.matches && 'IntersectionObserver' in window) {
     const revealObserver = new IntersectionObserver(
