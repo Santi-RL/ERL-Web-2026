@@ -1,0 +1,2102 @@
+{
+  "hero-equipo": {
+    "alt": "Equipo contable trabajando",
+    "width": 2400,
+    "height": 1377,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-480.avif",
+          "width": 480,
+          "height": 275
+        },
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-768.avif",
+          "width": 768,
+          "height": 441
+        },
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-1024.avif",
+          "width": 1024,
+          "height": 588
+        },
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-1365.avif",
+          "width": 1365,
+          "height": 783
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-480.webp",
+          "width": 480,
+          "height": 275
+        },
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-768.webp",
+          "width": 768,
+          "height": 441
+        },
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-1024.webp",
+          "width": 1024,
+          "height": 588
+        },
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-1365.webp",
+          "width": 1365,
+          "height": 783
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-480.jpg",
+          "width": 480,
+          "height": 275
+        },
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-768.jpg",
+          "width": 768,
+          "height": 441
+        },
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-1024.jpg",
+          "width": 1024,
+          "height": 588
+        },
+        {
+          "src": "/img/generated/hero-equipo/hero-equipo-1365.jpg",
+          "width": 1365,
+          "height": 783
+        }
+      ]
+    }
+  },
+  "reunion-estrategica": {
+    "alt": "Reunión de equipo en oficina moderna",
+    "width": 2400,
+    "height": 1602,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-768.avif",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-1024.avif",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-1365.avif",
+          "width": 1365,
+          "height": 911
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-768.webp",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-1024.webp",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-1365.webp",
+          "width": 1365,
+          "height": 911
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-768.jpg",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-1024.jpg",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/reunion-estrategica/reunion-estrategica-1365.jpg",
+          "width": 1365,
+          "height": 911
+        }
+      ]
+    }
+  },
+  "servicio-contabilidad": {
+    "alt": "Contabilidad y auditoría",
+    "width": 2000,
+    "height": 1333,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-1024.avif",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-1024.webp",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-1024.jpg",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/servicio-contabilidad/servicio-contabilidad-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "servicio-impuestos": {
+    "alt": "Liquidación de impuestos",
+    "width": 2000,
+    "height": 1335,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-768.avif",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-1024.avif",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-1365.avif",
+          "width": 1365,
+          "height": 911
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-768.webp",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-1024.webp",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-1365.webp",
+          "width": 1365,
+          "height": 911
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-768.jpg",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-1024.jpg",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/servicio-impuestos/servicio-impuestos-1365.jpg",
+          "width": 1365,
+          "height": 911
+        }
+      ]
+    }
+  },
+  "servicio-rrhh": {
+    "alt": "Gestión de recursos humanos",
+    "width": 2000,
+    "height": 1335,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-768.avif",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-1024.avif",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-1365.avif",
+          "width": 1365,
+          "height": 911
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-768.webp",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-1024.webp",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-1365.webp",
+          "width": 1365,
+          "height": 911
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-768.jpg",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-1024.jpg",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/servicio-rrhh/servicio-rrhh-1365.jpg",
+          "width": 1365,
+          "height": 911
+        }
+      ]
+    }
+  },
+  "servicio-outsourcing": {
+    "alt": "Outsourcing administrativo",
+    "width": 2000,
+    "height": 1333,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1024.avif",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1024.webp",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1024.jpg",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "servicio-consultoria": {
+    "alt": "Consultoría financiera",
+    "width": 2000,
+    "height": 1333,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-1024.avif",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-1024.webp",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-1024.jpg",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/servicio-consultoria/servicio-consultoria-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "servicio-planes": {
+    "alt": "Planes personalizados para empresas",
+    "width": 2000,
+    "height": 1335,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-768.avif",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-1024.avif",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-1365.avif",
+          "width": 1365,
+          "height": 911
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-768.webp",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-1024.webp",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-1365.webp",
+          "width": 1365,
+          "height": 911
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-768.jpg",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-1024.jpg",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/servicio-planes/servicio-planes-1365.jpg",
+          "width": 1365,
+          "height": 911
+        }
+      ]
+    }
+  },
+  "recurso-monotributo": {
+    "alt": "Material de estudio sobre monotributo",
+    "width": 1800,
+    "height": 1200,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-1024.avif",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-1024.webp",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-1024.jpg",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "/img/generated/recurso-monotributo/recurso-monotributo-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "recurso-plantilla-gastos": {
+    "alt": "Plantilla para control de gastos",
+    "width": 1800,
+    "height": 1033,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-480.avif",
+          "width": 480,
+          "height": 275
+        },
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-768.avif",
+          "width": 768,
+          "height": 441
+        },
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1024.avif",
+          "width": 1024,
+          "height": 588
+        },
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1365.avif",
+          "width": 1365,
+          "height": 783
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-480.webp",
+          "width": 480,
+          "height": 275
+        },
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-768.webp",
+          "width": 768,
+          "height": 441
+        },
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1024.webp",
+          "width": 1024,
+          "height": 588
+        },
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1365.webp",
+          "width": 1365,
+          "height": 783
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-480.jpg",
+          "width": 480,
+          "height": 275
+        },
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-768.jpg",
+          "width": 768,
+          "height": 441
+        },
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1024.jpg",
+          "width": 1024,
+          "height": 588
+        },
+        {
+          "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1365.jpg",
+          "width": 1365,
+          "height": 783
+        }
+      ]
+    }
+  },
+  "recurso-checklist": {
+    "alt": "Checklist para iniciar actividades",
+    "width": 1800,
+    "height": 1200,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-1024.avif",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-1024.webp",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-1024.jpg",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "/img/generated/recurso-checklist/recurso-checklist-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "hero-servicios": {
+    "alt": "Profesionales analizando reportes contables",
+    "width": 2400,
+    "height": 1600,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-1024.avif",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-1024.webp",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-1024.jpg",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "/img/generated/hero-servicios/hero-servicios-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "equipo-colaborativo": {
+    "alt": "Equipo de trabajo colaborando",
+    "width": 2400,
+    "height": 1575,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-480.avif",
+          "width": 480,
+          "height": 315
+        },
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-768.avif",
+          "width": 768,
+          "height": 504
+        },
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-1024.avif",
+          "width": 1024,
+          "height": 672
+        },
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-1365.avif",
+          "width": 1365,
+          "height": 896
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-480.webp",
+          "width": 480,
+          "height": 315
+        },
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-768.webp",
+          "width": 768,
+          "height": 504
+        },
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-1024.webp",
+          "width": 1024,
+          "height": 672
+        },
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-1365.webp",
+          "width": 1365,
+          "height": 896
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-480.jpg",
+          "width": 480,
+          "height": 315
+        },
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-768.jpg",
+          "width": 768,
+          "height": 504
+        },
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-1024.jpg",
+          "width": 1024,
+          "height": 672
+        },
+        {
+          "src": "/img/generated/equipo-colaborativo/equipo-colaborativo-1365.jpg",
+          "width": 1365,
+          "height": 896
+        }
+      ]
+    }
+  },
+  "consultor-presentando": {
+    "alt": "Consultor explicando estrategias",
+    "width": 2400,
+    "height": 1603,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-480.avif",
+          "width": 480,
+          "height": 321
+        },
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-768.avif",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-1024.avif",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-1365.avif",
+          "width": 1365,
+          "height": 912
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-480.webp",
+          "width": 480,
+          "height": 321
+        },
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-768.webp",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-1024.webp",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-1365.webp",
+          "width": 1365,
+          "height": 912
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-480.jpg",
+          "width": 480,
+          "height": 321
+        },
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-768.jpg",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-1024.jpg",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/consultor-presentando/consultor-presentando-1365.jpg",
+          "width": 1365,
+          "height": 912
+        }
+      ]
+    }
+  },
+  "directora-estudio": {
+    "alt": "Retrato de Lucía Rojas, socia directora",
+    "width": 1800,
+    "height": 2689,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-480.avif",
+          "width": 480,
+          "height": 717
+        },
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-768.avif",
+          "width": 768,
+          "height": 1147
+        },
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-1024.avif",
+          "width": 1024,
+          "height": 1530
+        },
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-1365.avif",
+          "width": 1365,
+          "height": 2039
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-480.webp",
+          "width": 480,
+          "height": 717
+        },
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-768.webp",
+          "width": 768,
+          "height": 1147
+        },
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-1024.webp",
+          "width": 1024,
+          "height": 1530
+        },
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-1365.webp",
+          "width": 1365,
+          "height": 2039
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-480.jpg",
+          "width": 480,
+          "height": 717
+        },
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-768.jpg",
+          "width": 768,
+          "height": 1147
+        },
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-1024.jpg",
+          "width": 1024,
+          "height": 1530
+        },
+        {
+          "src": "/img/generated/directora-estudio/directora-estudio-1365.jpg",
+          "width": 1365,
+          "height": 2039
+        }
+      ]
+    }
+  },
+  "socio-tecnologico": {
+    "alt": "Retrato de Martín Lem, socio tecnológico",
+    "width": 1800,
+    "height": 2174,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-480.avif",
+          "width": 480,
+          "height": 580
+        },
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-768.avif",
+          "width": 768,
+          "height": 928
+        },
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-1024.avif",
+          "width": 1024,
+          "height": 1237
+        },
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-1365.avif",
+          "width": 1365,
+          "height": 1649
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-480.webp",
+          "width": 480,
+          "height": 580
+        },
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-768.webp",
+          "width": 768,
+          "height": 928
+        },
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-1024.webp",
+          "width": 1024,
+          "height": 1237
+        },
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-1365.webp",
+          "width": 1365,
+          "height": 1649
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-480.jpg",
+          "width": 480,
+          "height": 580
+        },
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-768.jpg",
+          "width": 768,
+          "height": 928
+        },
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-1024.jpg",
+          "width": 1024,
+          "height": 1237
+        },
+        {
+          "src": "/img/generated/socio-tecnologico/socio-tecnologico-1365.jpg",
+          "width": 1365,
+          "height": 1649
+        }
+      ]
+    }
+  },
+  "lider-people-care": {
+    "alt": "Retrato de Laura Martínez, líder de people care",
+    "width": 1800,
+    "height": 2700,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-480.avif",
+          "width": 480,
+          "height": 720
+        },
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-768.avif",
+          "width": 768,
+          "height": 1152
+        },
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-1024.avif",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-1365.avif",
+          "width": 1365,
+          "height": 2048
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-480.webp",
+          "width": 480,
+          "height": 720
+        },
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-768.webp",
+          "width": 768,
+          "height": 1152
+        },
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-1024.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-1365.webp",
+          "width": 1365,
+          "height": 2048
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-480.jpg",
+          "width": 480,
+          "height": 720
+        },
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-768.jpg",
+          "width": 768,
+          "height": 1152
+        },
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-1024.jpg",
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "src": "/img/generated/lider-people-care/lider-people-care-1365.jpg",
+          "width": 1365,
+          "height": 2048
+        }
+      ]
+    }
+  },
+  "auditor-senior": {
+    "alt": "Retrato de Diego Fernández, auditor senior",
+    "width": 1800,
+    "height": 1800,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-480.avif",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-768.avif",
+          "width": 768,
+          "height": 768
+        },
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-1024.avif",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-1365.avif",
+          "width": 1365,
+          "height": 1365
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-480.webp",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-768.webp",
+          "width": 768,
+          "height": 768
+        },
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-1024.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-1365.webp",
+          "width": 1365,
+          "height": 1365
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-480.jpg",
+          "width": 480,
+          "height": 480
+        },
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-768.jpg",
+          "width": 768,
+          "height": 768
+        },
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-1024.jpg",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "src": "/img/generated/auditor-senior/auditor-senior-1365.jpg",
+          "width": 1365,
+          "height": 1365
+        }
+      ]
+    }
+  },
+  "blog-dashboard-oficina": {
+    "alt": "Oficina moderna con dashboards",
+    "width": 2000,
+    "height": 1336,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-480.avif",
+          "width": 480,
+          "height": 321
+        },
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-768.avif",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-1024.avif",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-1365.avif",
+          "width": 1365,
+          "height": 912
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-480.webp",
+          "width": 480,
+          "height": 321
+        },
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-768.webp",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-1024.webp",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-1365.webp",
+          "width": 1365,
+          "height": 912
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-480.jpg",
+          "width": 480,
+          "height": 321
+        },
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-768.jpg",
+          "width": 768,
+          "height": 513
+        },
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-1024.jpg",
+          "width": 1024,
+          "height": 684
+        },
+        {
+          "src": "/img/generated/blog-dashboard-oficina/blog-dashboard-oficina-1365.jpg",
+          "width": 1365,
+          "height": 912
+        }
+      ]
+    }
+  },
+  "blog-estadisticas-fiscales": {
+    "alt": "Profesional revisando estadísticas fiscales",
+    "width": 2000,
+    "height": 1333,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-1024.avif",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-1024.webp",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-1024.jpg",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-estadisticas-fiscales/blog-estadisticas-fiscales-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "blog-recursos-humanos": {
+    "alt": "Equipo de recursos humanos colaborando",
+    "width": 2000,
+    "height": 1333,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-1024.avif",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-1024.webp",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-1024.jpg",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-recursos-humanos/blog-recursos-humanos-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "blog-dashboard-startup": {
+    "alt": "Dashboard financiero de startup",
+    "width": 2000,
+    "height": 1333,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-1024.avif",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-1024.webp",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-1024.jpg",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-dashboard-startup/blog-dashboard-startup-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "blog-integracion-tecnologica": {
+    "alt": "Integración tecnológica en oficina",
+    "width": 2000,
+    "height": 1333,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-1024.avif",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-1024.webp",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-1024.jpg",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-integracion-tecnologica/blog-integracion-tecnologica-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "blog-fundadora-resultados": {
+    "alt": "Fundadora analizando resultados",
+    "width": 2000,
+    "height": 1333,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-480.avif",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-768.avif",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-1024.avif",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-1365.avif",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-480.webp",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-768.webp",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-1024.webp",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-1365.webp",
+          "width": 1365,
+          "height": 910
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-480.jpg",
+          "width": 480,
+          "height": 320
+        },
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-768.jpg",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-1024.jpg",
+          "width": 1024,
+          "height": 682
+        },
+        {
+          "src": "/img/generated/blog-fundadora-resultados/blog-fundadora-resultados-1365.jpg",
+          "width": 1365,
+          "height": 910
+        }
+      ]
+    }
+  },
+  "testimonio-ana": {
+    "alt": "Retrato de Ana Pérez",
+    "width": 600,
+    "height": 899,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/testimonio-ana/testimonio-ana-120.avif",
+          "width": 120,
+          "height": 180
+        },
+        {
+          "src": "/img/generated/testimonio-ana/testimonio-ana-160.avif",
+          "width": 160,
+          "height": 240
+        },
+        {
+          "src": "/img/generated/testimonio-ana/testimonio-ana-240.avif",
+          "width": 240,
+          "height": 360
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/testimonio-ana/testimonio-ana-120.webp",
+          "width": 120,
+          "height": 180
+        },
+        {
+          "src": "/img/generated/testimonio-ana/testimonio-ana-160.webp",
+          "width": 160,
+          "height": 240
+        },
+        {
+          "src": "/img/generated/testimonio-ana/testimonio-ana-240.webp",
+          "width": 240,
+          "height": 360
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/testimonio-ana/testimonio-ana-120.jpg",
+          "width": 120,
+          "height": 180
+        },
+        {
+          "src": "/img/generated/testimonio-ana/testimonio-ana-160.jpg",
+          "width": 160,
+          "height": 240
+        },
+        {
+          "src": "/img/generated/testimonio-ana/testimonio-ana-240.jpg",
+          "width": 240,
+          "height": 360
+        }
+      ]
+    }
+  },
+  "testimonio-martin": {
+    "alt": "Retrato de Martín Gómez",
+    "width": 600,
+    "height": 900,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/testimonio-martin/testimonio-martin-120.avif",
+          "width": 120,
+          "height": 180
+        },
+        {
+          "src": "/img/generated/testimonio-martin/testimonio-martin-160.avif",
+          "width": 160,
+          "height": 240
+        },
+        {
+          "src": "/img/generated/testimonio-martin/testimonio-martin-240.avif",
+          "width": 240,
+          "height": 360
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/testimonio-martin/testimonio-martin-120.webp",
+          "width": 120,
+          "height": 180
+        },
+        {
+          "src": "/img/generated/testimonio-martin/testimonio-martin-160.webp",
+          "width": 160,
+          "height": 240
+        },
+        {
+          "src": "/img/generated/testimonio-martin/testimonio-martin-240.webp",
+          "width": 240,
+          "height": 360
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/testimonio-martin/testimonio-martin-120.jpg",
+          "width": 120,
+          "height": 180
+        },
+        {
+          "src": "/img/generated/testimonio-martin/testimonio-martin-160.jpg",
+          "width": 160,
+          "height": 240
+        },
+        {
+          "src": "/img/generated/testimonio-martin/testimonio-martin-240.jpg",
+          "width": 240,
+          "height": 360
+        }
+      ]
+    }
+  },
+  "testimonio-laura": {
+    "alt": "Retrato de Laura Fernández",
+    "width": 600,
+    "height": 400,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/testimonio-laura/testimonio-laura-120.avif",
+          "width": 120,
+          "height": 80
+        },
+        {
+          "src": "/img/generated/testimonio-laura/testimonio-laura-160.avif",
+          "width": 160,
+          "height": 107
+        },
+        {
+          "src": "/img/generated/testimonio-laura/testimonio-laura-240.avif",
+          "width": 240,
+          "height": 160
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/testimonio-laura/testimonio-laura-120.webp",
+          "width": 120,
+          "height": 80
+        },
+        {
+          "src": "/img/generated/testimonio-laura/testimonio-laura-160.webp",
+          "width": 160,
+          "height": 107
+        },
+        {
+          "src": "/img/generated/testimonio-laura/testimonio-laura-240.webp",
+          "width": 240,
+          "height": 160
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/testimonio-laura/testimonio-laura-120.jpg",
+          "width": 120,
+          "height": 80
+        },
+        {
+          "src": "/img/generated/testimonio-laura/testimonio-laura-160.jpg",
+          "width": 160,
+          "height": 107
+        },
+        {
+          "src": "/img/generated/testimonio-laura/testimonio-laura-240.jpg",
+          "width": 240,
+          "height": 160
+        }
+      ]
+    }
+  },
+  "case-scaling-cloud": {
+    "alt": "Retrato del CEO de Scaling Cloud",
+    "width": 600,
+    "height": 338,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/case-scaling-cloud/case-scaling-cloud-120.avif",
+          "width": 120,
+          "height": 68
+        },
+        {
+          "src": "/img/generated/case-scaling-cloud/case-scaling-cloud-160.avif",
+          "width": 160,
+          "height": 90
+        },
+        {
+          "src": "/img/generated/case-scaling-cloud/case-scaling-cloud-240.avif",
+          "width": 240,
+          "height": 135
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/case-scaling-cloud/case-scaling-cloud-120.webp",
+          "width": 120,
+          "height": 68
+        },
+        {
+          "src": "/img/generated/case-scaling-cloud/case-scaling-cloud-160.webp",
+          "width": 160,
+          "height": 90
+        },
+        {
+          "src": "/img/generated/case-scaling-cloud/case-scaling-cloud-240.webp",
+          "width": 240,
+          "height": 135
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/case-scaling-cloud/case-scaling-cloud-120.jpg",
+          "width": 120,
+          "height": 68
+        },
+        {
+          "src": "/img/generated/case-scaling-cloud/case-scaling-cloud-160.jpg",
+          "width": 160,
+          "height": 90
+        },
+        {
+          "src": "/img/generated/case-scaling-cloud/case-scaling-cloud-240.jpg",
+          "width": 240,
+          "height": 135
+        }
+      ]
+    }
+  },
+  "case-casa-mia": {
+    "alt": "Retrato de la fundadora de Casa Mía Deco",
+    "width": 600,
+    "height": 896,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/case-casa-mia/case-casa-mia-120.avif",
+          "width": 120,
+          "height": 179
+        },
+        {
+          "src": "/img/generated/case-casa-mia/case-casa-mia-160.avif",
+          "width": 160,
+          "height": 239
+        },
+        {
+          "src": "/img/generated/case-casa-mia/case-casa-mia-240.avif",
+          "width": 240,
+          "height": 358
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/case-casa-mia/case-casa-mia-120.webp",
+          "width": 120,
+          "height": 179
+        },
+        {
+          "src": "/img/generated/case-casa-mia/case-casa-mia-160.webp",
+          "width": 160,
+          "height": 239
+        },
+        {
+          "src": "/img/generated/case-casa-mia/case-casa-mia-240.webp",
+          "width": 240,
+          "height": 358
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/case-casa-mia/case-casa-mia-120.jpg",
+          "width": 120,
+          "height": 179
+        },
+        {
+          "src": "/img/generated/case-casa-mia/case-casa-mia-160.jpg",
+          "width": 160,
+          "height": 239
+        },
+        {
+          "src": "/img/generated/case-casa-mia/case-casa-mia-240.jpg",
+          "width": 240,
+          "height": 358
+        }
+      ]
+    }
+  },
+  "case-lex-partners": {
+    "alt": "Retrato del socio de Lex & Partners",
+    "width": 600,
+    "height": 900,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/case-lex-partners/case-lex-partners-120.avif",
+          "width": 120,
+          "height": 180
+        },
+        {
+          "src": "/img/generated/case-lex-partners/case-lex-partners-160.avif",
+          "width": 160,
+          "height": 240
+        },
+        {
+          "src": "/img/generated/case-lex-partners/case-lex-partners-240.avif",
+          "width": 240,
+          "height": 360
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/case-lex-partners/case-lex-partners-120.webp",
+          "width": 120,
+          "height": 180
+        },
+        {
+          "src": "/img/generated/case-lex-partners/case-lex-partners-160.webp",
+          "width": 160,
+          "height": 240
+        },
+        {
+          "src": "/img/generated/case-lex-partners/case-lex-partners-240.webp",
+          "width": 240,
+          "height": 360
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/case-lex-partners/case-lex-partners-120.jpg",
+          "width": 120,
+          "height": 180
+        },
+        {
+          "src": "/img/generated/case-lex-partners/case-lex-partners-160.jpg",
+          "width": 160,
+          "height": 240
+        },
+        {
+          "src": "/img/generated/case-lex-partners/case-lex-partners-240.jpg",
+          "width": 240,
+          "height": 360
+        }
+      ]
+    }
+  }
+}

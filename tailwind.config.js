@@ -12,6 +12,7 @@ module.exports = {
     './politica-de-privacidad.html',
     './terminos-y-condiciones.html',
     './mapa-del-sitio.html',
+    './src/partials/**/*.hbs',
     './src/**/*.{js,css}',
   ],
   theme: {

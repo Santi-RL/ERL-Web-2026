@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint src --ext .js",
-    "format": "prettier --write \"src/**/*.{js,css}\" \"*.html\""
+    "format": "prettier --write \"src/**/*.{js,css}\" \"*.html\"",
+    "images": "node scripts/generate-images.mjs"
   },
   "dependencies": {
     "lucide": "^0.321.0"
@@ -17,9 +18,14 @@
     "@tailwindcss/forms": "^0.5.6",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.56.0",
+    "node-fetch": "^3.3.2",
     "postcss": "^8.4.31",
     "prettier": "^3.1.1",
     "tailwindcss": "^3.3.5",
-    "vite": "^5.0.4"
+    "vite": "^5.0.4",
+    "vite-plugin-handlebars": "^2.0.0"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.33.2"
   }
 }

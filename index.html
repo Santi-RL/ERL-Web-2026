@@ -9,13 +9,53 @@
         html.fonts-loaded .no-fouc { opacity: 1; transition: opacity 0.1s ease-in; }
     </style>
     <meta name="description" content="Estudio Contable Rojas Lem: Soluciones contables, impositivas y de gestión para Pymes y emprendedores. Modernos, ágiles y tecnológicos.">
+        <link rel="canonical" href="https://estudiorojaslem.com/">
+        <meta property="og:site_name" content="Estudio Contable Rojas Lem">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Estudio Contable Rojas Lem - Contabilidad Moderna para Pymes y Emprendedores">
+        <meta property="og:description" content="Estudio Contable Rojas Lem: Soluciones contables, impositivas y de gestión para Pymes y emprendedores. Modernos, ágiles y tecnológicos.">
+        <meta property="og:url" content="https://estudiorojaslem.com/">
+        <meta property="og:image" content="https://estudiorojaslem.com/img/og-default.png">
+        <meta property="og:locale" content="es_AR">
+        <meta property="og:image:alt" content="Equipo contable trabajando en Estudio Contable Rojas Lem">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Estudio Contable Rojas Lem - Contabilidad Moderna para Pymes y Emprendedores">
+        <meta name="twitter:description" content="Estudio Contable Rojas Lem: Soluciones contables, impositivas y de gestión para Pymes y emprendedores. Modernos, ágiles y tecnológicos.">
+        <meta name="twitter:image" content="https://estudiorojaslem.com/img/og-default.png">
+        <meta name="twitter:image:alt" content="Equipo contable trabajando en Estudio Contable Rojas Lem">
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "AccountingService",
+                "name": "Estudio Contable Rojas Lem",
+                "url": "https://estudiorojaslem.com/",
+                "logo": "https://estudiorojaslem.com/img/og-default.png",
+                "image": "https://estudiorojaslem.com/img/og-default.png",
+                "telephone": "+54 9 11 1234-5678",
+                "email": "info@rojaslem.com.ar",
+                "priceRange": "$$",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Av. Corrientes 1234, Piso 5",
+                    "addressLocality": "Buenos Aires",
+                    "addressRegion": "CABA",
+                    "postalCode": "C1043",
+                    "addressCountry": "AR"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/company/rojaslem",
+                    "https://www.instagram.com/rojaslem",
+                    "https://www.facebook.com/rojaslem"
+                ]
+            }
+        </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-light text-dark antialiased no-fouc" data-page="inicio">
 
-    <div id="header-placeholder"></div>
+    {{> header }}
 
     <main>
         <section id="inicio" class="pt-24 md:pt-32 pb-16 md:pb-24 bg-gradient-to-b from-white to-primary/5">
@@ -48,7 +88,7 @@
                         </div>
                     </div>
                     <div class="reveal">
-                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Equipo contable trabajando" class="rounded-xl shadow-lg w-full h-auto object-cover" loading="lazy">
+                        {{> responsivePicture image='hero-equipo' class='rounded-xl shadow-lg w-full h-auto object-cover' sizes='(min-width: 1024px) 45vw, 100vw' loading='eager'}}
                     </div>
                 </div>
             </div>
@@ -90,7 +130,7 @@
                 
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="reveal">
-                        <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Reunión de equipo" class="rounded-xl shadow-lg w-full h-auto object-cover" loading="lazy">
+                        {{> responsivePicture image='reunion-estrategica' class='rounded-xl shadow-lg w-full h-auto object-cover' sizes='(min-width: 1024px) 45vw, 100vw'}}
                     </div>
                     <div class="reveal">
                         <h2 class="text-3xl md:text-4xl font-display mb-6">Nuestra Historia</h2>
@@ -139,7 +179,7 @@
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div class="card reveal text-left group">
                         <div class="h-48 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Contabilidad y Auditoría" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                            {{> responsivePicture image='servicio-contabilidad' class='w-full h-full object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
                         </div>
                         <div class="p-6">
                             <div class="inline-block p-3 rounded-full bg-primary/10 mb-4">
@@ -160,7 +200,7 @@
                     
                     <div class="card reveal text-left group">
                         <div class="h-48 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Liquidación de Impuestos" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                            {{> responsivePicture image='servicio-impuestos' class='w-full h-full object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
                         </div>
                         <div class="p-6">
                             <div class="inline-block p-3 rounded-full bg-secondary/10 mb-4">
@@ -181,7 +221,7 @@
                     
                     <div class="card reveal text-left group">
                         <div class="h-48 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Gestión de RRHH" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                            {{> responsivePicture image='servicio-rrhh' class='w-full h-full object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
                         </div>
                         <div class="p-6">
                             <div class="inline-block p-3 rounded-full bg-accent/10 mb-4">
@@ -202,7 +242,7 @@
                     
                     <div class="card reveal text-left group">
                         <div class="h-48 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Outsourcing Administrativo" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                            {{> responsivePicture image='servicio-outsourcing' class='w-full h-full object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
                         </div>
                         <div class="p-6">
                             <div class="inline-block p-3 rounded-full bg-success/10 mb-4">
@@ -223,7 +263,7 @@
                     
                     <div class="card reveal text-left group">
                         <div class="h-48 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Consultoría Financiera" class="w-full h-full object-cover transition duration-500 group-hover:scale-105">
+                            {{> responsivePicture image='servicio-consultoria' class='w-full h-full object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
                         </div>
                         <div class="p-6">
                             <div class="inline-block p-3 rounded-full bg-primary/10 mb-4">
@@ -244,7 +284,7 @@
                     
                     <div class="card reveal text-left md:col-span-2 lg:col-span-1 bg-gradient-secondary text-white group">
                         <div class="h-48 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Planes Personalizados" class="w-full h-full object-cover opacity-70 group-hover:opacity-50 transition duration-500">
+                            {{> responsivePicture image='servicio-planes' class='w-full h-full object-cover opacity-70 group-hover:opacity-50 transition duration-500' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
                         </div>
                         <div class="p-6 relative z-10">
                             <div class="inline-block p-3 rounded-full bg-white/20 mb-4">
@@ -274,7 +314,7 @@
 
                 <div class="grid md:grid-cols-3 gap-8 mb-12">
                     <div class="card reveal text-left group">
-                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Guía de Monotributo" class="w-full h-48 object-cover transition duration-500 group-hover:scale-105">
+                        {{> responsivePicture image='recurso-monotributo' class='w-full h-48 object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw'}}
                         <div class="p-6">
                             <span class="text-xs text-gray-dark uppercase">Guía Práctica</span>
                             <h4 class="font-semibold text-lg mt-1 mb-2 hover:text-primary transition"><a href="blog.html">Guía Completa del Monotributo 2023</a></h4>
@@ -286,7 +326,7 @@
                     </div>
                     
                     <div class="card reveal text-left group">
-                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Plantilla Excel" class="w-full h-48 object-cover transition duration-500 group-hover:scale-105">
+                        {{> responsivePicture image='recurso-plantilla-gastos' class='w-full h-48 object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw'}}
                         <div class="p-6">
                             <span class="text-xs text-gray-dark uppercase">Herramienta</span>
                             <h4 class="font-semibold text-lg mt-1 mb-2 hover:text-secondary transition"><a href="#blog">Plantilla de Control de Gastos</a></h4>
@@ -298,7 +338,7 @@
                     </div>
                     
                     <div class="card reveal text-left group">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Checklist Inicio de Actividades" class="w-full h-48 object-cover transition duration-500 group-hover:scale-105">
+                        {{> responsivePicture image='recurso-checklist' class='w-full h-48 object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw'}}
                         <div class="p-6">
                             <span class="text-xs text-gray-dark uppercase">Checklist</span>
                             <h4 class="font-semibold text-lg mt-1 mb-2 hover:text-accent transition"><a href="#blog">Inicio de Actividades: Paso a Paso</a></h4>
@@ -409,7 +449,7 @@
                         </div>
                         <p class="text-gray-dark italic mb-6">"Desde que trabajamos con Rojas Lem, nuestra contabilidad está impecable y entendemos mucho mejor nuestros números. Su equipo responde consultas en minutos, no en días."</p>
                         <div class="flex items-center">
-                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&q=80" alt="Ana Pérez" class="w-12 h-12 rounded-full mr-4 object-cover">
+                            {{> responsivePicture image='testimonio-ana' class='w-12 h-12 rounded-full mr-4 object-cover' sizes='80px' loading='lazy'}}
                             <div>
                                 <p class="font-semibold">Ana Pérez</p>
                                 <p class="text-sm text-gray-dark">Tienda Online Creativa</p>
@@ -427,7 +467,7 @@
                         </div>
                         <p class="text-gray-dark italic mb-6">"La transición de Monotributo a Responsable Inscripto fue perfecta gracias a su asesoramiento. Nos anticiparon todos los pasos y requisitos, evitándonos dolores de cabeza."</p>
                         <div class="flex items-center">
-                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&q=80" alt="Martín Gómez" class="w-12 h-12 rounded-full mr-4 object-cover">
+                            {{> responsivePicture image='testimonio-martin' class='w-12 h-12 rounded-full mr-4 object-cover' sizes='80px' loading='lazy'}}
                             <div>
                                 <p class="font-semibold">Martín Gómez</p>
                                 <p class="text-sm text-gray-dark">Consultora IT Solutions</p>
@@ -445,7 +485,7 @@
                         </div>
                         <p class="text-gray-dark italic mb-6">"Como pequeña fábrica textil, la gestión de sueldos era un caos. Ahora con Rojas Lem todo está sistematizado y cumplimos con todas las obligaciones laborales sin estrés."</p>
                         <div class="flex items-center">
-                            <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&q=80" alt="Laura Fernández" class="w-12 h-12 rounded-full mr-4 object-cover">
+                            {{> responsivePicture image='testimonio-laura' class='w-12 h-12 rounded-full mr-4 object-cover' sizes='80px' loading='lazy'}}
                             <div>
                                 <p class="font-semibold">Laura Fernández</p>
                                 <p class="text-sm text-gray-dark">Fábrica Textil DelSur</p>
@@ -457,11 +497,11 @@
                 <div class="mt-16 reveal">
                     <h3 class="text-xl font-semibold text-gray-dark mb-8">Empresas que confían en nosotros</h3>
                     <div class="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-70 hover:opacity-100 transition duration-500">
-                        <img src="https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Cliente A" class="client-logo">
-                        <img src="https://images.unsplash.com/photo-1589156280159-27698a70f0ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Cliente B" class="client-logo">
-                        <img src="https://images.unsplash.com/photo-1631495625884-a8a7edfad1e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Cliente C" class="client-logo">
-                        <img src="https://images.unsplash.com/photo-1631725999047-8c9b09e90284?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Cliente D" class="client-logo">
-                        <img src="https://images.unsplash.com/photo-1631495625551-0a8a5d1f0433?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Logo Cliente E" class="client-logo">
+                        <img src="https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80" alt="Logo Cliente A" class="client-logo" width="200" height="200">
+                        <img src="https://images.unsplash.com/photo-1589156280159-27698a70f0ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80" alt="Logo Cliente B" class="client-logo" width="200" height="200">
+                        <img src="https://images.unsplash.com/photo-1631495625884-a8a7edfad1e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80" alt="Logo Cliente C" class="client-logo" width="200" height="200">
+                        <img src="https://images.unsplash.com/photo-1631725999047-8c9b09e90284?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80" alt="Logo Cliente D" class="client-logo" width="200" height="200">
+                        <img src="https://images.unsplash.com/photo-1631495625551-0a8a5d1f0433?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80" alt="Logo Cliente E" class="client-logo" width="200" height="200">
                     </div>
                 </div>
             </div>
@@ -600,82 +640,7 @@
         </section>
     </main>
 
-    <footer class="bg-dark text-gray-light section-padding">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8 mb-8">
-                <div>
-                    <a href="index.html#inicio" class="text-2xl font-bold font-display text-white mb-4 inline-flex items-center">
-                        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=40&q=80" alt="Logo Rojas Lem" class="h-8 w-8 mr-2 rounded-full">
-                        Rojas Lem
-                    </a>
-                    <p class="text-sm text-gray-400 mb-4">Contabilidad moderna para Pymes y emprendedores. Agilidad, tecnología y cercanía.</p>
-                     <div class="flex space-x-3">
-                         <a href="https://www.linkedin.com/company/rojaslem" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-10 h-10 bg-gray-dark rounded-full text-gray-light hover:bg-primary transition">
-                             <i data-lucide="linkedin" class="w-5 h-5"></i>
-                         </a>
-                          <a href="https://www.instagram.com/rojaslem" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-10 h-10 bg-gray-dark rounded-full text-gray-light hover:bg-primary transition">
-                             <i data-lucide="instagram" class="w-5 h-5"></i>
-                         </a>
-                          <a href="https://www.facebook.com/rojaslem" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-10 h-10 bg-gray-dark rounded-full text-gray-light hover:bg-primary transition">
-                             <i data-lucide="facebook" class="w-5 h-5"></i>
-                         </a>
-                    </div>
-                </div>
-
-                <div>
-                    <h4 class="text-lg font-semibold text-white mb-4">Servicios</h4>
-                    <ul class="space-y-2 text-sm text-gray-400">
-                        <li><a href="servicios.html#contabilidad" class="hover:text-white transition">Contabilidad y Auditoría</a></li>
-                        <li><a href="servicios.html#impuestos" class="hover:text-white transition">Liquidación de Impuestos</a></li>
-                        <li><a href="servicios.html#rrhh" class="hover:text-white transition">Gestión de RRHH</a></li>
-                        <li><a href="servicios.html#outsourcing" class="hover:text-white transition">Outsourcing Administrativo</a></li>
-                        <li><a href="servicios.html#consultoria" class="hover:text-white transition">Consultoría Financiera</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h4 class="text-lg font-semibold text-white mb-4">Enlaces Rápidos</h4>
-                    <ul class="space-y-2 text-sm text-gray-400">
-                        <li><a href="nosotros.html" class="hover:text-white transition">Sobre Nosotros</a></li>
-                        <li><a href="recursos.html" class="hover:text-white transition">Recursos</a></li>
-                        <li><a href="casos-de-exito.html" class="hover:text-white transition">Clientes</a></li>
-                        <li><a href="#contacto" class="hover:text-white transition">Contacto</a></li>
-                        <li><a href="#blog" class="hover:text-white transition">Blog</a></li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h4 class="text-lg font-semibold text-white mb-4">Contacto</h4>
-                    <ul class="space-y-3 text-sm text-gray-400">
-                       <li class="flex items-start">
-                           <i data-lucide="mail" class="w-4 h-4 mr-2 mt-1 text-primary shrink-0"></i>
-                           <span>info@rojaslem.com.ar</span>
-                       </li>
-                       <li class="flex items-start">
-                           <i data-lucide="phone" class="w-4 h-4 mr-2 mt-1 text-primary shrink-0"></i>
-                           <span>+54 9 11 1234-5678</span>
-                       </li>
-                       <li class="flex items-start">
-                           <i data-lucide="map-pin" class="w-4 h-4 mr-2 mt-1 text-primary shrink-0"></i>
-                           <span>Av. Corrientes 1234, Piso 5<br>Buenos Aires, Argentina</span>
-                       </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="border-t border-gray-dark/30 pt-6 text-center text-sm text-gray-400">
-                <div class="flex flex-col md:flex-row justify-between items-center">
-                    <div class="mb-4 md:mb-0">
-                        © <span id="current-year"></span> Estudio Contable Rojas Lem. Todos los derechos reservados.
-                    </div>
-                    <div class="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
-                        <a href="politica-de-privacidad.html" class="hover:text-white transition">Política de Privacidad</a>
-                        <a href="terminos-y-condiciones.html" class="hover:text-white transition">Términos de Servicio</a>
-                        <a href="mapa-del-sitio.html" class="hover:text-white transition">Mapa del Sitio</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    {{> footer }}
 
     <a href="https://wa.me/5491112345678" target="_blank" rel="noopener noreferrer" class="fixed bottom-5 right-5 z-40 p-4 bg-whatsapp rounded-full shadow-lg hover:bg-whatsapp-dark transition duration-300 group motion-safe:animate-bounce motion-reduce:transform-none">
         <i data-lucide="message-circle" class="w-8 h-8 text-white group-hover:scale-110 transition-transform"></i>

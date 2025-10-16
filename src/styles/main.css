@@ -67,7 +67,7 @@
   }
 
   .client-logo {
-    @apply h-12 md:h-16 grayscale hover:grayscale-0 transition duration-500;
+    @apply max-h-12 md:max-h-16 w-auto object-contain grayscale hover:grayscale-0 transition duration-500;
   }
 
   .form-feedback {
