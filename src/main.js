@@ -1,6 +1,8 @@
 import './styles/main.css';
 import { createIcons } from 'lucide';
 
+document.documentElement.classList.add('has-js');
+
 const setActiveNavigation = () => {
   const activePage = document.body?.dataset?.page;
   if (!activePage) return;
