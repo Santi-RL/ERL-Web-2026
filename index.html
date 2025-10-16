@@ -31,17 +31,9 @@
                 "url": "https://estudiorojaslem.com/",
                 "logo": "https://estudiorojaslem.com/img/og-default.png",
                 "image": "https://estudiorojaslem.com/img/og-default.png",
-                "telephone": "+54 9 11 1234-5678",
-                "email": "info@rojaslem.com.ar",
+                "telephone": "+54 9 11 4024-5540",
+                "email": "contacto@estudiorojaslem.com",
                 "priceRange": "$$",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Av. Corrientes 1234, Piso 5",
-                    "addressLocality": "Buenos Aires",
-                    "addressRegion": "CABA",
-                    "postalCode": "C1043",
-                    "addressCountry": "AR"
-                },
                 "sameAs": [
                     "https://www.linkedin.com/company/rojaslem",
                     "https://www.instagram.com/rojaslem",
@@ -51,7 +43,7 @@
         </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-light text-dark antialiased no-fouc" data-page="inicio">
 
@@ -88,7 +80,9 @@
                         </div>
                     </div>
                     <div class="reveal">
-                        {{> responsivePicture image='hero-equipo' class='rounded-xl shadow-lg w-full h-auto object-cover' sizes='(min-width: 1024px) 45vw, 100vw' loading='eager'}}
+                        <div class="rounded-xl shadow-lg overflow-hidden">
+                            {{> responsivePicture image='hero-equipo'}}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,7 +124,9 @@
                 
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="reveal">
-                        {{> responsivePicture image='reunion-estrategica' class='rounded-xl shadow-lg w-full h-auto object-cover' sizes='(min-width: 1024px) 45vw, 100vw'}}
+                        <div class="rounded-xl shadow-lg overflow-hidden">
+                            {{> responsivePicture image='reunion-estrategica'}}
+                        </div>
                     </div>
                     <div class="reveal">
                         <h2 class="text-3xl md:text-4xl font-display mb-6">Nuestra Historia</h2>
@@ -178,8 +174,8 @@
 
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div class="card reveal text-left group">
-                        <div class="h-48 overflow-hidden">
-                            {{> responsivePicture image='servicio-contabilidad' class='w-full h-full object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
+                        <div class="media h-48 overflow-hidden">
+                            {{> responsivePicture image='servicio-contabilidad'}}
                         </div>
                         <div class="p-6">
                             <div class="inline-block p-3 rounded-full bg-primary/10 mb-4">
@@ -199,8 +195,8 @@
                     </div>
                     
                     <div class="card reveal text-left group">
-                        <div class="h-48 overflow-hidden">
-                            {{> responsivePicture image='servicio-impuestos' class='w-full h-full object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
+                        <div class="media h-48 overflow-hidden">
+                            {{> responsivePicture image='servicio-impuestos'}}
                         </div>
                         <div class="p-6">
                             <div class="inline-block p-3 rounded-full bg-secondary/10 mb-4">
@@ -220,8 +216,8 @@
                     </div>
                     
                     <div class="card reveal text-left group">
-                        <div class="h-48 overflow-hidden">
-                            {{> responsivePicture image='servicio-rrhh' class='w-full h-full object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
+                        <div class="media h-48 overflow-hidden">
+                            {{> responsivePicture image='servicio-rrhh'}}
                         </div>
                         <div class="p-6">
                             <div class="inline-block p-3 rounded-full bg-accent/10 mb-4">
@@ -241,12 +237,12 @@
                     </div>
                     
                     <div class="card reveal text-left group">
-                        <div class="h-48 overflow-hidden">
-                            {{> responsivePicture image='servicio-outsourcing' class='w-full h-full object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
+                        <div class="media h-48 overflow-hidden">
+                            {{> responsivePicture image='servicio-outsourcing'}}
                         </div>
                         <div class="p-6">
                             <div class="inline-block p-3 rounded-full bg-success/10 mb-4">
-                                <i data-lucide="briefcase-business" class="w-8 h-8 text-success"></i>
+                                <i data-lucide="briefcase" class="w-8 h-8 text-success"></i>
                             </div>
                             <h3 class="text-xl font-semibold mb-3">Outsourcing Administrativo</h3>
                             <p class="text-gray-dark text-sm mb-4">Delegá tus tareas administrativas en nuestros expertos.</p>
@@ -262,8 +258,8 @@
                     </div>
                     
                     <div class="card reveal text-left group">
-                        <div class="h-48 overflow-hidden">
-                            {{> responsivePicture image='servicio-consultoria' class='w-full h-full object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
+                        <div class="media h-48 overflow-hidden">
+                            {{> responsivePicture image='servicio-consultoria'}}
                         </div>
                         <div class="p-6">
                             <div class="inline-block p-3 rounded-full bg-primary/10 mb-4">
@@ -283,8 +279,8 @@
                     </div>
                     
                     <div class="card reveal text-left md:col-span-2 lg:col-span-1 bg-gradient-secondary text-white group">
-                        <div class="h-48 overflow-hidden">
-                            {{> responsivePicture image='servicio-planes' class='w-full h-full object-cover opacity-70 group-hover:opacity-50 transition duration-500' sizes='(min-width: 1024px) 33vw, (min-width: 768px) 45vw, 90vw'}}
+                        <div class="media h-48 overflow-hidden">
+                            {{> responsivePicture image='servicio-planes'}}
                         </div>
                         <div class="p-6 relative z-10">
                             <div class="inline-block p-3 rounded-full bg-white/20 mb-4">
@@ -314,7 +310,9 @@
 
                 <div class="grid md:grid-cols-3 gap-8 mb-12">
                     <div class="card reveal text-left group">
-                        {{> responsivePicture image='recurso-monotributo' class='w-full h-48 object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw'}}
+                        <div class="media h-48 overflow-hidden">
+                            {{> responsivePicture image='recurso-monotributo'}}
+                        </div>
                         <div class="p-6">
                             <span class="text-xs text-gray-dark uppercase">Guía Práctica</span>
                             <h4 class="font-semibold text-lg mt-1 mb-2 hover:text-primary transition"><a href="blog.html">Guía Completa del Monotributo 2023</a></h4>
@@ -326,7 +324,9 @@
                     </div>
                     
                     <div class="card reveal text-left group">
-                        {{> responsivePicture image='recurso-plantilla-gastos' class='w-full h-48 object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw'}}
+                        <div class="media h-48 overflow-hidden">
+                            {{> responsivePicture image='recurso-plantilla-gastos'}}
+                        </div>
                         <div class="p-6">
                             <span class="text-xs text-gray-dark uppercase">Herramienta</span>
                             <h4 class="font-semibold text-lg mt-1 mb-2 hover:text-secondary transition"><a href="#blog">Plantilla de Control de Gastos</a></h4>
@@ -338,7 +338,9 @@
                     </div>
                     
                     <div class="card reveal text-left group">
-                        {{> responsivePicture image='recurso-checklist' class='w-full h-48 object-cover transition duration-500 group-hover:scale-105' sizes='(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw'}}
+                        <div class="media h-48 overflow-hidden">
+                            {{> responsivePicture image='recurso-checklist'}}
+                        </div>
                         <div class="p-6">
                             <span class="text-xs text-gray-dark uppercase">Checklist</span>
                             <h4 class="font-semibold text-lg mt-1 mb-2 hover:text-accent transition"><a href="#blog">Inicio de Actividades: Paso a Paso</a></h4>
@@ -449,7 +451,9 @@
                         </div>
                         <p class="text-gray-dark italic mb-6">"Desde que trabajamos con Rojas Lem, nuestra contabilidad está impecable y entendemos mucho mejor nuestros números. Su equipo responde consultas en minutos, no en días."</p>
                         <div class="flex items-center">
-                            {{> responsivePicture image='testimonio-ana' class='w-12 h-12 rounded-full mr-4 object-cover' sizes='80px' loading='lazy'}}
+                            <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                {{> responsivePicture image='testimonio-ana'}}
+                            </div>
                             <div>
                                 <p class="font-semibold">Ana Pérez</p>
                                 <p class="text-sm text-gray-dark">Tienda Online Creativa</p>
@@ -467,7 +471,9 @@
                         </div>
                         <p class="text-gray-dark italic mb-6">"La transición de Monotributo a Responsable Inscripto fue perfecta gracias a su asesoramiento. Nos anticiparon todos los pasos y requisitos, evitándonos dolores de cabeza."</p>
                         <div class="flex items-center">
-                            {{> responsivePicture image='testimonio-martin' class='w-12 h-12 rounded-full mr-4 object-cover' sizes='80px' loading='lazy'}}
+                            <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                {{> responsivePicture image='testimonio-martin'}}
+                            </div>
                             <div>
                                 <p class="font-semibold">Martín Gómez</p>
                                 <p class="text-sm text-gray-dark">Consultora IT Solutions</p>
@@ -485,7 +491,9 @@
                         </div>
                         <p class="text-gray-dark italic mb-6">"Como pequeña fábrica textil, la gestión de sueldos era un caos. Ahora con Rojas Lem todo está sistematizado y cumplimos con todas las obligaciones laborales sin estrés."</p>
                         <div class="flex items-center">
-                            {{> responsivePicture image='testimonio-laura' class='w-12 h-12 rounded-full mr-4 object-cover' sizes='80px' loading='lazy'}}
+                            <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                                {{> responsivePicture image='testimonio-laura'}}
+                            </div>
                             <div>
                                 <p class="font-semibold">Laura Fernández</p>
                                 <p class="text-sm text-gray-dark">Fábrica Textil DelSur</p>
@@ -566,8 +574,8 @@
                                     </div>
                                     <div>
                                         <h4 class="font-medium">Correo Electrónico</h4>
-                                        <p class="text-sm">info@rojaslem.com.ar</p>
-                                        <a href="mailto:info@rojaslem.com.ar" class="text-sm font-medium text-primary hover:underline inline-flex items-center mt-1">
+                                        <p class="text-sm">contacto@estudiorojaslem.com</p>
+                                        <a href="mailto:contacto@estudiorojaslem.com" class="text-sm font-medium text-primary hover:underline inline-flex items-center mt-1">
                                             Escribinos <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                                         </a>
                                     </div>
@@ -579,22 +587,9 @@
                                     </div>
                                     <div>
                                         <h4 class="font-medium">Teléfono / WhatsApp</h4>
-                                        <p class="text-sm">+54 9 11 1234-5678</p>
-                                        <a href="https://wa.me/5491112345678" target="_blank" class="text-sm font-medium text-secondary hover:underline inline-flex items-center mt-1">
+                                        <p class="text-sm">+54 9 11 4024-5540</p>
+                                        <a href="https://wa.me/5491140245540" target="_blank" class="text-sm font-medium text-secondary hover:underline inline-flex items-center mt-1">
                                             Chatear por WhatsApp <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                
-                                <div class="flex items-start p-4 bg-gray-light rounded-lg">
-                                    <div class="inline-flex items-center justify-center w-10 h-10 gradient-accent rounded-full text-white mr-4 shrink-0">
-                                        <i data-lucide="map-pin" class="w-5 h-5"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-medium">Oficina Comercial</h4>
-                                        <p class="text-sm">Av. Corrientes 1234, Piso 5, Oficina 502<br>Buenos Aires, Argentina</p>
-                                        <a href="https://goo.gl/maps/ejemplo" target="_blank" class="text-sm font-medium text-accent hover:underline inline-flex items-center mt-1">
-                                            Ver en el mapa <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -642,7 +637,7 @@
 
     {{> footer }}
 
-    <a href="https://wa.me/5491112345678" target="_blank" rel="noopener noreferrer" class="fixed bottom-5 right-5 z-40 p-4 bg-whatsapp rounded-full shadow-lg hover:bg-whatsapp-dark transition duration-300 group motion-safe:animate-bounce motion-reduce:transform-none">
+    <a href="https://wa.me/5491140245540" target="_blank" rel="noopener noreferrer" class="fixed bottom-5 right-5 z-40 p-4 bg-whatsapp rounded-full shadow-lg hover:bg-whatsapp-dark transition duration-300 group motion-safe:animate-bounce motion-reduce:transform-none">
         <i data-lucide="message-circle" class="w-8 h-8 text-white group-hover:scale-110 transition-transform"></i>
         <span class="sr-only">Contactar por WhatsApp</span>
     </a>
@@ -651,3 +646,5 @@
     <script type="module" src="/src/main.js"></script>
 </body>
 </html>
+
+

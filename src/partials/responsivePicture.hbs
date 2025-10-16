@@ -2,16 +2,16 @@
   {{#if img}}
     <picture>
       {{#if img.formats.avif}}
-        <source type="image/avif" srcset="{{srcset img.formats.avif}}" sizes="{{default sizes "100vw"}}">
+        <source type="image/avif" srcset="{{srcset img.formats.avif}}" sizes="{{default (default imgSizes sizes) "100vw"}}">
       {{/if}}
       {{#if img.formats.webp}}
-        <source type="image/webp" srcset="{{srcset img.formats.webp}}" sizes="{{default sizes "100vw"}}">
+        <source type="image/webp" srcset="{{srcset img.formats.webp}}" sizes="{{default (default imgSizes sizes) "100vw"}}">
       {{/if}}
       <img
         src="{{fallbackSrc img.formats.jpg}}"
         alt="{{default alt img.alt}}"
-        class="{{class}}"
-        loading="{{default loading "lazy"}}"
+        class="block w-full {{default imgClass class}}"
+        loading="{{default (default imgLoading loading) "lazy"}}"
         decoding="async"
         width="{{img.width}}"
         height="{{img.height}}"

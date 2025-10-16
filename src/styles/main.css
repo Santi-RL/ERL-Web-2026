@@ -66,6 +66,15 @@
     @apply bg-white rounded-xl shadow-md overflow-hidden transition duration-300 hover:shadow-xl hover:-translate-y-2;
   }
 
+  /* Ensure media inside cards align consistently */
+  .card > picture { display: block; line-height: 0; }
+  .card > picture > img { display: block; width: 100%; }
+
+  /* Generic media wrapper to enforce consistent cropping */
+  .media { position: relative; }
+  .media > picture { display: block; height: 100%; }
+  .media > picture > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
   .client-logo {
     @apply max-h-12 md:max-h-16 w-auto object-contain grayscale hover:grayscale-0 transition duration-500;
   }
@@ -80,5 +89,34 @@
 
   .form-feedback[data-state='error'] {
     @apply block bg-red-50 border-red-200 text-red-600;
+  }
+
+  /* Logo Header Styles */
+  .logo-header {
+    @apply flex items-center gap-2 min-w-0;
+  }
+
+  .logo-img {
+    @apply h-12 w-12 object-contain transition-transform duration-300 flex-shrink-0;
+  }
+
+  .logo-texto {
+    @apply flex flex-col gap-0 min-w-0;
+  }
+
+  .logo-nombre {
+    @apply text-xl leading-none font-extrabold font-sans whitespace-nowrap;
+  }
+
+  .logo-light {
+    @apply text-gray-600 font-extrabold;
+  }
+
+  .logo-highlight {
+    @apply text-primary font-extrabold inline;
+  }
+
+  .logo-subtitulo {
+    @apply text-sm text-gray-500 leading-tight mt-0.5 whitespace-nowrap;
   }
 }
