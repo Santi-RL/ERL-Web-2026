@@ -170,7 +170,12 @@
                         <span class="text-xs uppercase tracking-wider font-semibold text-white/80">Newsletter mensual</span>
                         <h3 class="text-2xl font-display mt-2 mb-4">Recibí novedades y recursos en tu correo</h3>
                         <p class="text-sm text-white/90 mb-6">Suscribite para acceder a descargas inmediatas y recibir alertas sobre cambios normativos y talleres exclusivos.</p>
-                        <form action="contacto.html" method="POST" class="space-y-4" data-validate data-success-message="¡Gracias! Te enviaremos los recursos solicitados en los próximos minutos." data-error-message="Por favor completá los campos obligatorios.">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4" data-validate data-success-message="¡Gracias! Te enviaremos los recursos solicitados en los próximos minutos." data-error-message="Por favor completá los campos obligatorios.">
+                            <input type="hidden" name="access_key" value="61370b3a-a931-4277-b7bb-2a8cd32a9a87">
+                            <input type="hidden" name="from_name" value="Estudio Rojas Lem - Recursos Premium">
+                            <input type="hidden" name="subject" value="Nueva solicitud de recursos">
+                            <input type="hidden" name="form_origin" value="Recursos - Descargas">
+                            <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" class="hidden">
                             <div>
                                 <label for="newsletter-nombre" class="block text-sm font-medium mb-1">Nombre</label>
                                 <input type="text" id="newsletter-nombre" name="nombre" required data-required class="w-full px-3 py-2 rounded-md border border-white/40 bg-white/10 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white" placeholder="Tu nombre">

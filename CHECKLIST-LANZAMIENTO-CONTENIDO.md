@@ -6,7 +6,7 @@ Estado: borrador inicial. Marcar con [x] a medida que se complete.
 
 ## P0 — Crítico (antes de publicar)
 
-- [ ] Agenda de reuniones (enlace real y/o embed unificado)
+- [x] Agenda de reuniones (enlace real y/o embed unificado)
   - Reemplazar placeholders de `https://cal.com/` por el enlace definitivo del estudio y unificar CTAs.
   - Referencias: `contacto.html:155–184`, `contacto.html:173`, `177`, `181`; `planes.html:103`, `119`, `254–255`; `servicios.html:156`; `blog.html:112`; `recursos.html:207–209`.
 
@@ -58,7 +58,7 @@ Estado: borrador inicial. Marcar con [x] a medida que se complete.
 - [ ] Página 404 personalizada
   - Crear `404.html` con navegación de retorno.
 
-- [ ] Embed de agenda
+- [x] Embed de agenda
   - Incrustar widget (Cal/Calendly) en `contacto.html#agenda` con UTMs y localización.
 
 - [ ] Flujo de newsletter + descargas
@@ -97,7 +97,7 @@ Estado: borrador inicial. Marcar con [x] a medida que se complete.
   - [ ] Enlaces de “Recursos” sin `#` (384–394)
 
 - Contacto (`contacto.html`)
-  - [ ] Agenda real/embebida (155–184; links a `cal.com` en 173/177/181)
+  - [x] Agenda real/embebida (155-184; links a `cal.com` en 173/177/181)
   - [ ] Form principal operativo (98–...)
   - [ ] WhatsApp y mails directos verificados (61–86)
 
@@ -111,11 +111,11 @@ Estado: borrador inicial. Marcar con [x] a medida que se complete.
 
 - Servicios (`servicios.html`)
   - [ ] Reemplazar imagen Unsplash (190–192)
-  - [ ] CTAs a agenda/contacto correctos (60–61, 156)
+  - [x] CTAs a agenda/contacto correctos (60-61, 156)
 
 - Casos de éxito (`casos-de-exito.html`)
   - [ ] Testimonios reales (169–205)
-  - [ ] CTA a agenda válido (216–219)
+  - [x] CTA a agenda válido (216-219)
 
 - Nosotros (`nosotros.html`)
   - [ ] Confirmar datos del equipo y LinkedIn personales (194–255)
@@ -125,7 +125,7 @@ Estado: borrador inicial. Marcar con [x] a medida que se complete.
 
 ## Dependencias (bloquean P0)
 
-- Enlace definitivo a la agenda (Cal/Calendly/otro) y parámetros UTM.
+- [x] Enlace definitivo a la agenda (Cal/Calendly/otro) y parámetros UTM.
 - Proveedor/endpoint para formularios (contacto + newsletters) y textos legales aprobados.
 - Logos de clientes (SVG/PNG) y autorización de uso.
 - Testimonios reales (texto, crédito, foto, permiso de publicación).
@@ -135,4 +135,3 @@ Estado: borrador inicial. Marcar con [x] a medida que se complete.
 ## Notas
 
 - Mantener este checklist conciso, accionable y actualizado. Si un ítem demanda tareas técnicas, crear su issue/tarea y vincularlo desde aquí, dejando el detalle técnico en `PRIORIDADES.md`.
-

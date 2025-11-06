@@ -129,6 +129,49 @@ const setFeedback = (target, state, message) => {
   target.classList.remove('hidden');
 };
 
+const translateWeb3FormsMessage = (message, fallback, type) => {
+  if (!message) return fallback;
+
+  const translations = {
+    'Form submission successful.': '¡Gracias! Recibimos tu mensaje y te contactaremos a la brevedad.',
+    'Message received successfully.': '¡Gracias! Recibimos tu mensaje y te contactaremos a la brevedad.',
+    'Required fields are missing.': 'Faltan datos obligatorios. Revisá el formulario y volvé a intentar.',
+    'Bot detected.': 'Detectamos actividad inusual. Completá el formulario manualmente e intentá nuevamente.',
+    'Invalid access key.': 'La clave del formulario no es válida. Avisanos para que podamos resolverlo.',
+    'Unable to send email. Please try again later.': 'No pudimos enviar el mensaje. Intentá más tarde o escribinos por otro canal.',
+  };
+
+  const normalized = message.trim();
+  const translated = translations[normalized];
+
+  if (!translated) {
+    if (type === 'error') {
+      console.warn('Web3Forms error:', message);
+    }
+    return fallback;
+  }
+
+  return translated;
+};
+
+const toggleSubmittingState = (form, isSubmitting) => {
+  const submitButton = form.querySelector('[type="submit"]');
+  if (!submitButton) return;
+
+  if (isSubmitting) {
+    submitButton.disabled = true;
+    submitButton.dataset.originalText = submitButton.dataset.originalText || submitButton.innerHTML;
+    submitButton.innerHTML = 'Enviando...';
+    submitButton.setAttribute('aria-busy', 'true');
+  } else {
+    submitButton.disabled = false;
+    if (submitButton.dataset.originalText) {
+      submitButton.innerHTML = submitButton.dataset.originalText;
+    }
+    submitButton.removeAttribute('aria-busy');
+  }
+};
+
 const setupForms = () => {
   document.querySelectorAll('form[data-validate]').forEach((form) => {
     const feedback = form.querySelector('[data-feedback]');
@@ -139,7 +182,7 @@ const setupForms = () => {
       form.getAttribute('data-error-message') ||
       'Por favor completá los campos obligatorios.';
 
-    form.addEventListener('submit', (event) => {
+    form.addEventListener('submit', async (event) => {
       const requiredFields = [
         ...form.querySelectorAll('[data-required]'),
       ];
@@ -155,8 +198,51 @@ const setupForms = () => {
       }
 
       event.preventDefault();
-      setFeedback(feedback, 'success', defaultSuccess);
-      form.reset();
+      const formData = new FormData(form);
+      if (formData.get('botcheck')) {
+        return;
+      }
+
+      const emailValue = formData.get('email');
+      if (emailValue && !formData.get('reply_to')) {
+        formData.append('reply_to', emailValue);
+      }
+
+      setFeedback(feedback, '', '');
+      toggleSubmittingState(form, true);
+
+      try {
+        const response = await fetch(form.action, {
+          method: form.method || 'POST',
+          body: formData,
+          headers: {
+            Accept: 'application/json',
+          },
+        });
+
+        const data = await response.json().catch(() => null);
+        if (response.ok && data?.success) {
+          const successMessage = translateWeb3FormsMessage(
+            data?.message,
+            defaultSuccess,
+            'success',
+          );
+          setFeedback(feedback, 'success', successMessage);
+          form.reset();
+        } else {
+          const message = translateWeb3FormsMessage(
+            data?.message,
+            defaultError,
+            'error',
+          );
+          setFeedback(feedback, 'error', message);
+        }
+      } catch (error) {
+        setFeedback(feedback, 'error', defaultError);
+        console.error('Form submission failed', error);
+      } finally {
+        toggleSubmittingState(form, false);
+      }
     });
 
     form.addEventListener('input', () => {

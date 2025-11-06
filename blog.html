@@ -186,7 +186,12 @@
                     </div>
                     <div class="card p-8 reveal bg-white">
                         <h3 class="text-xl font-semibold mb-4">Suscribite gratis</h3>
-                        <form action="contacto.html" method="POST" class="space-y-4" data-validate data-success-message="¡Gracias por sumarte! En breve recibirás la próxima edición." data-error-message="Por favor completá los campos obligatorios.">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4" data-validate data-success-message="¡Gracias por sumarte! En breve recibirás la próxima edición." data-error-message="Por favor completá los campos obligatorios.">
+                            <input type="hidden" name="access_key" value="61370b3a-a931-4277-b7bb-2a8cd32a9a87">
+                            <input type="hidden" name="from_name" value="Estudio Rojas Lem - Blog Newsletter">
+                            <input type="hidden" name="subject" value="Nueva suscripción semanal desde el blog">
+                            <input type="hidden" name="form_origin" value="Blog - Newsletter">
+                            <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" class="hidden">
                             <div>
                                 <label for="blog-nombre" class="block text-sm font-medium text-gray-dark mb-1">Nombre</label>
                                 <input type="text" id="blog-nombre" name="nombre" required data-required class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary" placeholder="Tu nombre">
