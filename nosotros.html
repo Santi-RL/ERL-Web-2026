@@ -183,72 +183,58 @@
             </div>
         </section>
 
+        
         <section class="section-padding bg-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-12 reveal">
-                    <span class="text-sm font-semibold text-primary uppercase tracking-wider">Equipo Directivo</span>
-                    <h2 class="text-3xl md:text-4xl font-display mt-2 mb-4">Expertos que lideran junto a vos</h2>
-                    <p class="text-gray-dark max-w-3xl mx-auto">Combinamos experiencia corporativa, visión emprendedora y talento joven para ofrecerte soluciones a medida.</p>
-                </div>
-
-                <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-8">
-                    <div class="card overflow-hidden reveal">
-                        <div class="media h-56 overflow-hidden">
-                            {{> responsivePicture image='directora-estudio'}}
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold">Lucía Rojas</h3>
-                            <p class="text-primary font-medium text-sm mb-3">Socia Directora · Estrategia Fiscal</p>
-                            <p class="text-sm text-gray-dark">Contadora UBA con posgrado en Derecho Tributario. Lidera equipos que optimizan cargas fiscales para scaleups y compañías regionales.</p>
-                            <div class="mt-4 flex space-x-3">
-                                <a href="https://ar.linkedin.com/company/estudiorojaslem" target="_blank" rel="noopener noreferrer" class="text-gray-dark hover:text-primary transition inline-flex items-center">
-                                    <i data-lucide="linkedin" class="w-5 h-5 mr-1"></i> LinkedIn
-                                </a>
+                <div class="grid md:grid-cols-[1.2fr,1fr] gap-12 items-start">
+                    <div class="reveal">
+                        <span class="text-sm font-semibold text-primary uppercase tracking-wider">Nuestro equipo</span>
+                        <h2 class="text-3xl md:text-4xl font-display mt-2 mb-4">Especialistas dedicados a cada área clave</h2>
+                        <p class="text-gray-dark mb-6">Contadores, abogadas, analistas de datos y profesionales de people care trabajan coordinados para sostener la operación diaria y las decisiones estratégicas de tu negocio.</p>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-success mr-3 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Células multidisciplinarias</h3>
+                                    <p class="text-sm text-gray-dark">Cada cliente cuenta con referentes de contabilidad, impuestos y payroll conectados en un mismo flujo.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-success mr-3 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Supervisión senior permanente</h3>
+                                    <p class="text-sm text-gray-dark">Liderazgo directo de socias y managers para validar entregables críticos y anticipar riesgos.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-lucide="check-circle" class="w-5 h-5 text-success mr-3 mt-1"></i>
+                                <div>
+                                    <h3 class="font-semibold text-lg">Comunicación centralizada</h3>
+                                    <p class="text-sm text-gray-dark">Canales compartidos y tableros colaborativos para mantener al día a founders, CFOs y equipos operativos.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reveal space-y-6">
+                        <div class="card p-6 bg-white/80 border border-gray-200 shadow-sm flex items-start gap-4">
+                            <i data-lucide="library" class="w-8 h-8 text-primary mt-1"></i>
+                            <div>
+                                <h3 class="text-lg font-semibold">Squad contable</h3>
+                                <p class="text-sm text-gray-dark">Armado de estados financieros, conciliaciones automáticas y seguimiento de indicadores clave.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="card overflow-hidden reveal">
-                        <div class="media h-56 overflow-hidden">
-                            {{> responsivePicture image='socio-tecnologico'}}
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold">Martín Lem</h3>
-                            <p class="text-primary font-medium text-sm mb-3">Socio · Transformación Digital</p>
-                            <p class="text-sm text-gray-dark">Especialista en automatización contable y visualización de datos. Desarrolla tableros ejecutivos y flujos integrados con ERPs.</p>
-                            <div class="mt-4 flex space-x-3">
-                                <a href="https://ar.linkedin.com/company/estudiorojaslem" target="_blank" rel="noopener noreferrer" class="text-gray-dark hover:text-primary transition inline-flex items-center">
-                                    <i data-lucide="linkedin" class="w-5 h-5 mr-1"></i> LinkedIn
-                                </a>
+                        <div class="card p-6 bg-white/80 border border-gray-200 shadow-sm flex items-start gap-4">
+                            <i data-lucide="landmark" class="w-8 h-8 text-primary mt-1"></i>
+                            <div>
+                                <h3 class="text-lg font-semibold">Especialistas impositivos</h3>
+                                <p class="text-sm text-gray-dark">Planificación fiscal, control de vencimientos y representación ante organismos nacionales y provinciales.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="card overflow-hidden reveal">
-                        <div class="media h-56 overflow-hidden">
-                            {{> responsivePicture image='lider-people-care'}}
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold">Laura Martínez</h3>
-                            <p class="text-primary font-medium text-sm mb-3">Gerenta · People & Payroll</p>
-                            <p class="text-sm text-gray-dark">Coach ejecutiva y licenciada en Relaciones Laborales. Diseña experiencias para potenciar equipos y asegurar cumplimiento laboral.</p>
-                            <div class="mt-4 flex space-x-3">
-                                <a href="https://ar.linkedin.com/company/estudiorojaslem" target="_blank" rel="noopener noreferrer" class="text-gray-dark hover:text-primary transition inline-flex items-center">
-                                    <i data-lucide="linkedin" class="w-5 h-5 mr-1"></i> LinkedIn
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card overflow-hidden reveal">
-                        <div class="media h-56 overflow-hidden">
-                            {{> responsivePicture image='auditor-senior'}}
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold">Diego Fernández</h3>
-                            <p class="text-primary font-medium text-sm mb-3">Senior Manager · Auditoría & Compliance</p>
-                            <p class="text-sm text-gray-dark">Ex auditor Big Four. Implementa marcos de control interno y due diligence para rondas de inversión.</p>
-                            <div class="mt-4 flex space-x-3">
-                                <a href="https://ar.linkedin.com/company/estudiorojaslem" target="_blank" rel="noopener noreferrer" class="text-gray-dark hover:text-primary transition inline-flex items-center">
-                                    <i data-lucide="linkedin" class="w-5 h-5 mr-1"></i> LinkedIn
-                                </a>
+                        <div class="card p-6 bg-white/80 border border-gray-200 shadow-sm flex items-start gap-4">
+                            <i data-lucide="workflow" class="w-8 h-8 text-primary mt-1"></i>
+                            <div>
+                                <h3 class="text-lg font-semibold">People &amp; tecnología</h3>
+                                <p class="text-sm text-gray-dark">Implementación de HR tech, automatizaciones y soporte de compliance para equipos en crecimiento.</p>
                             </div>
                         </div>
                     </div>
@@ -326,8 +312,8 @@
                         <a href="contacto.html#agenda" class="btn btn-primary inline-flex items-center justify-center">
                             <i data-lucide="calendar-plus" class="w-5 h-5 mr-2"></i> Reservar videollamada
                         </a>
-                        <a href="planes.html" class="btn btn-outline-primary inline-flex items-center justify-center">
-                            Revisar planes <i data-lucide="arrow-right" class="w-5 h-5 ml-1"></i>
+                        <a href="servicios.html" class="btn btn-outline-primary inline-flex items-center justify-center">
+                            Ver servicios <i data-lucide="arrow-right" class="w-5 h-5 ml-1"></i>
                         </a>
                     </div>
                 </div>
