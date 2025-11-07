@@ -7,10 +7,8 @@ const pageData = {
   'index.html': {
     footerQuickLinks: [
       { href: 'nosotros.html', label: 'Sobre Nosotros' },
-      { href: 'recursos.html', label: 'Recursos' },
-      { href: 'casos-de-exito.html', label: 'Clientes' },
+      { href: 'servicios.html', label: 'Servicios' },
       { href: '#contacto', label: 'Contacto' },
-      { href: 'blog.html', label: 'Blog' },
     ],
   },
 };
@@ -58,10 +56,6 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         nosotros: resolve(__dirname, 'nosotros.html'),
         servicios: resolve(__dirname, 'servicios.html'),
-        planes: resolve(__dirname, 'planes.html'),
-        casos: resolve(__dirname, 'casos-de-exito.html'),
-        recursos: resolve(__dirname, 'recursos.html'),
-        blog: resolve(__dirname, 'blog.html'),
         contacto: resolve(__dirname, 'contacto.html'),
         privacidad: resolve(__dirname, 'politica-de-privacidad.html'),
         terminos: resolve(__dirname, 'terminos-y-condiciones.html'),
