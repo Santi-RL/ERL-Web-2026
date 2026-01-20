@@ -34,8 +34,14 @@ const IMAGES = [
   {
     name: 'reunion-estrategica',
     source:
-      'https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2400&q=95',
-    alt: 'Reunión de equipo en oficina moderna',
+      'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=2400&q=95',
+    alt: 'Mesa de trabajo con laptop y herramientas digitales',
+  },
+  {
+    name: 'metodologia-procesos',
+    source:
+      'https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=2400&q=95',
+    alt: 'Mesa de trabajo con laptop y notas de procesos',
   },
   {
     name: 'servicio-contabilidad',
@@ -58,8 +64,8 @@ const IMAGES = [
   {
     name: 'servicio-outsourcing',
     source:
-      'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=95',
-    alt: 'Outsourcing administrativo',
+      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=2400&q=95',
+    alt: 'Laptop sobre mesa de trabajo para operaciones administrativas',
   },
   {
     name: 'servicio-consultoria',
@@ -82,8 +88,8 @@ const IMAGES = [
   {
     name: 'recurso-plantilla-gastos',
     source:
-      'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1800&q=95',
-    alt: 'Plantilla para control de gastos',
+      'https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=2400&q=95',
+    alt: 'Persona trabajando en una plantilla de gastos',
   },
   {
     name: 'recurso-checklist',
@@ -94,8 +100,8 @@ const IMAGES = [
   {
     name: 'hero-servicios',
     source:
-      'https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=2400&q=95',
-    alt: 'Profesionales analizando reportes contables',
+      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=2400&q=95',
+    alt: 'Equipo trabajando con reportes y analitica digital',
   },
   {
     name: 'equipo-colaborativo',

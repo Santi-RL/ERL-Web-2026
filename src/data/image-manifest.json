@@ -73,9 +73,9 @@
     }
   },
   "reunion-estrategica": {
-    "alt": "Reunión de equipo en oficina moderna",
+    "alt": "Mesa de trabajo con laptop y herramientas digitales",
     "width": 2400,
-    "height": 1602,
+    "height": 1598,
     "formats": {
       "avif": [
         {
@@ -86,17 +86,17 @@
         {
           "src": "/img/generated/reunion-estrategica/reunion-estrategica-768.avif",
           "width": 768,
-          "height": 513
+          "height": 511
         },
         {
           "src": "/img/generated/reunion-estrategica/reunion-estrategica-1024.avif",
           "width": 1024,
-          "height": 684
+          "height": 682
         },
         {
           "src": "/img/generated/reunion-estrategica/reunion-estrategica-1365.avif",
           "width": 1365,
-          "height": 911
+          "height": 909
         }
       ],
       "webp": [
@@ -108,17 +108,17 @@
         {
           "src": "/img/generated/reunion-estrategica/reunion-estrategica-768.webp",
           "width": 768,
-          "height": 513
+          "height": 511
         },
         {
           "src": "/img/generated/reunion-estrategica/reunion-estrategica-1024.webp",
           "width": 1024,
-          "height": 684
+          "height": 682
         },
         {
           "src": "/img/generated/reunion-estrategica/reunion-estrategica-1365.webp",
           "width": 1365,
-          "height": 911
+          "height": 909
         }
       ],
       "jpg": [
@@ -130,17 +130,90 @@
         {
           "src": "/img/generated/reunion-estrategica/reunion-estrategica-768.jpg",
           "width": 768,
-          "height": 513
+          "height": 511
         },
         {
           "src": "/img/generated/reunion-estrategica/reunion-estrategica-1024.jpg",
           "width": 1024,
-          "height": 684
+          "height": 682
         },
         {
           "src": "/img/generated/reunion-estrategica/reunion-estrategica-1365.jpg",
           "width": 1365,
-          "height": 911
+          "height": 909
+        }
+      ]
+    }
+  },
+  "metodologia-procesos": {
+    "alt": "Mesa de trabajo con laptop y notas de procesos",
+    "width": 2400,
+    "height": 1386,
+    "formats": {
+      "avif": [
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-480.avif",
+          "width": 480,
+          "height": 277
+        },
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-768.avif",
+          "width": 768,
+          "height": 444
+        },
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-1024.avif",
+          "width": 1024,
+          "height": 591
+        },
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-1365.avif",
+          "width": 1365,
+          "height": 788
+        }
+      ],
+      "webp": [
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-480.webp",
+          "width": 480,
+          "height": 277
+        },
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-768.webp",
+          "width": 768,
+          "height": 444
+        },
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-1024.webp",
+          "width": 1024,
+          "height": 591
+        },
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-1365.webp",
+          "width": 1365,
+          "height": 788
+        }
+      ],
+      "jpg": [
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-480.jpg",
+          "width": 480,
+          "height": 277
+        },
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-768.jpg",
+          "width": 768,
+          "height": 444
+        },
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-1024.jpg",
+          "width": 1024,
+          "height": 591
+        },
+        {
+          "src": "/img/generated/metodologia-procesos/metodologia-procesos-1365.jpg",
+          "width": 1365,
+          "height": 788
         }
       ]
     }
@@ -365,74 +438,74 @@
     }
   },
   "servicio-outsourcing": {
-    "alt": "Outsourcing administrativo",
-    "width": 2000,
-    "height": 1333,
+    "alt": "Laptop sobre mesa de trabajo para operaciones administrativas",
+    "width": 2400,
+    "height": 1709,
     "formats": {
       "avif": [
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-480.avif",
           "width": 480,
-          "height": 320
+          "height": 342
         },
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-768.avif",
           "width": 768,
-          "height": 512
+          "height": 547
         },
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1024.avif",
           "width": 1024,
-          "height": 682
+          "height": 729
         },
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1365.avif",
           "width": 1365,
-          "height": 910
+          "height": 972
         }
       ],
       "webp": [
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-480.webp",
           "width": 480,
-          "height": 320
+          "height": 342
         },
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-768.webp",
           "width": 768,
-          "height": 512
+          "height": 547
         },
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1024.webp",
           "width": 1024,
-          "height": 682
+          "height": 729
         },
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1365.webp",
           "width": 1365,
-          "height": 910
+          "height": 972
         }
       ],
       "jpg": [
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-480.jpg",
           "width": 480,
-          "height": 320
+          "height": 342
         },
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-768.jpg",
           "width": 768,
-          "height": 512
+          "height": 547
         },
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1024.jpg",
           "width": 1024,
-          "height": 682
+          "height": 729
         },
         {
           "src": "/img/generated/servicio-outsourcing/servicio-outsourcing-1365.jpg",
           "width": 1365,
-          "height": 910
+          "height": 972
         }
       ]
     }
@@ -657,74 +730,74 @@
     }
   },
   "recurso-plantilla-gastos": {
-    "alt": "Plantilla para control de gastos",
-    "width": 1800,
-    "height": 1033,
+    "alt": "Persona trabajando en una plantilla de gastos",
+    "width": 2400,
+    "height": 1600,
     "formats": {
       "avif": [
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-480.avif",
           "width": 480,
-          "height": 275
+          "height": 320
         },
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-768.avif",
           "width": 768,
-          "height": 441
+          "height": 512
         },
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1024.avif",
           "width": 1024,
-          "height": 588
+          "height": 683
         },
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1365.avif",
           "width": 1365,
-          "height": 783
+          "height": 910
         }
       ],
       "webp": [
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-480.webp",
           "width": 480,
-          "height": 275
+          "height": 320
         },
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-768.webp",
           "width": 768,
-          "height": 441
+          "height": 512
         },
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1024.webp",
           "width": 1024,
-          "height": 588
+          "height": 683
         },
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1365.webp",
           "width": 1365,
-          "height": 783
+          "height": 910
         }
       ],
       "jpg": [
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-480.jpg",
           "width": 480,
-          "height": 275
+          "height": 320
         },
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-768.jpg",
           "width": 768,
-          "height": 441
+          "height": 512
         },
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1024.jpg",
           "width": 1024,
-          "height": 588
+          "height": 683
         },
         {
           "src": "/img/generated/recurso-plantilla-gastos/recurso-plantilla-gastos-1365.jpg",
           "width": 1365,
-          "height": 783
+          "height": 910
         }
       ]
     }
@@ -803,7 +876,7 @@
     }
   },
   "hero-servicios": {
-    "alt": "Profesionales analizando reportes contables",
+    "alt": "Equipo trabajando con reportes y analitica digital",
     "width": 2400,
     "height": 1600,
     "formats": {

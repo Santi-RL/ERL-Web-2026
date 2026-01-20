@@ -186,11 +186,9 @@
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid md:grid-cols-2 gap-10 items-center">
                     <div class="reveal order-2 md:order-1">
-                        <picture>
-                            <source type="image/avif" srcset="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?fit=crop&w=1000&fm=avif&q=80">
-                            <source type="image/webp" srcset="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?fit=crop&w=1000&fm=webp&q=80">
-                            <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1000&q=80" alt="Profesional realizando tareas administrativas" class="rounded-xl shadow-lg w-full h-auto object-cover" loading="lazy" width="1000" height="667">
-                        </picture>
+                        <div class="rounded-xl shadow-lg overflow-hidden">
+                            {{> responsivePicture image='servicio-outsourcing' alt='Profesional realizando tareas administrativas'}}
+                        </div>
                     </div>
                     <div class="reveal order-1 md:order-2">
                         <span class="text-sm font-semibold text-primary uppercase tracking-wider">Outsourcing Administrativo</span>
